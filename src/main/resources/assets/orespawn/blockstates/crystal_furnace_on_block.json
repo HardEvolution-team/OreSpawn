@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "orespawn:crystal_furnace_on_block" },
+    "facing=south": { "model": "orespawn:crystal_furnace_on_block", "y": 180 },
+    "facing=west": { "model": "orespawn:crystal_furnace_on_block", "y": 270 },
+    "facing=east": { "model": "orespawn:crystal_furnace_on_block", "y": 90 }
+  }
+}

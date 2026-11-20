@@ -1,0 +1,1 @@
+{"parent":"orespawn:block/pizza","elements":[{"from":[3,0,1],"to":[15,4,15],"faces":{"down":{"texture":"#down"},"up":{"texture":"#up"},"north":{"texture":"#north"},"south":{"texture":"#south"},"west":{"texture":"orespawn:blocks/pizza_inner"},"east":{"texture":"#east"}}}]}

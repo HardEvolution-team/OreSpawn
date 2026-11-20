@@ -1,0 +1,6 @@
+{
+  "parent": "orespawn:block/tinted_cube_all",
+  "textures": {
+    "all": "orespawn:blocks/leavesapple"
+  }
+}

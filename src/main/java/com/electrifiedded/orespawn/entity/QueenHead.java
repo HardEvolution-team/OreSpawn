@@ -1,0 +1,179 @@
+package com.electrifiedded.orespawn.entity;
+import com.electrifiedded.orespawn.OreSpawn;
+
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
+import java.util.Iterator;
+import java.util.List;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityLiving;
+import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.util.DamageSource;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.world.World;
+
+public class QueenHead extends EntityLiving {
+   private int boatPosRotationIncrements;
+   private double boatX;
+   private double boatY;
+   private double boatZ;
+   private double boatYaw;
+   private double boatPitch;
+   private double velocityX;
+   private double velocityY;
+   private double velocityZ;
+
+   public QueenHead(World par1World) {
+      super(par1World);
+      this.ignoreFrustumCheck = true;
+      this.setSize(19.9F, 10.0F);
+      this.noClip = true;
+      this.isImmuneToFire = true;
+      this.isImmuneToFire = true;
+   }
+
+   @Override
+   public boolean isInRangeToRenderDist(double distance) {
+      return distance < 1048576.0D;
+   }
+
+   protected void applyEntityAttributes() {
+      super.applyEntityAttributes();
+      this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(OreSpawn.TheQueen_stats.health);
+      this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(1.33F);
+      this.getAttributeMap().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
+      this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(0.0);
+   }
+
+   protected boolean canDespawn() {
+      return false;
+   }
+
+   @Override
+   public void fall(float par1, float damageMultiplier) {
+   }
+
+   @Override
+   protected void updateFallState(double par1, boolean par3, net.minecraft.block.state.IBlockState state, net.minecraft.util.math.BlockPos pos) {
+   }
+
+   protected boolean canTriggerWalQueen() {
+      return false;
+   }
+
+   protected void entityInit() {
+      super.entityInit();
+   }
+
+   public boolean canBePushed() {
+      return true;
+   }
+
+   public boolean attackEntityFrom(DamageSource par1DamageSource, float par2) {
+      boolean ret = false;
+      if (par1DamageSource.getDamageType().equals("inWall")) {
+         return false;
+      } else {
+         Entity e = par1DamageSource.getTrueSource();
+         if (e == null || !(e instanceof TheQueen) && !(e instanceof QueenHead)) {
+            e = par1DamageSource.getImmediateSource();
+            if (e == null || !(e instanceof TheQueen) && !(e instanceof QueenHead)) {
+               List<Entity> var5 = this.world.getEntitiesWithinAABB(TheQueen.class, this.getEntityBoundingBox().grow(48.0, 32.0, 48.0));
+               Iterator var2x = var5.iterator();
+               Entity var3 = null;
+               TheQueen var4 = null;
+               if (var2x.hasNext()) {
+                  var3 = (Entity)var2x.next();
+                  var4 = (TheQueen)var3;
+                  ret = var4.attackEntityFrom(par1DamageSource, par2);
+               }
+
+               return ret;
+            } else {
+               return false;
+            }
+         } else {
+            return false;
+         }
+      }
+   }
+
+   public boolean canBeCollidedWith() {
+      return true;
+   }
+
+   @SideOnly(Side.CLIENT)
+   public void setPositionAndRotation2(double par1, double par3, double par5, float par7, float par8, int par9) {
+      if (this.getControllingPassenger() != null) {
+         this.boatPosRotationIncrements = par9 + 8;
+      } else {
+         this.boatPosRotationIncrements = 6;
+      }
+
+      this.boatX = par1;
+      this.boatY = par3;
+      this.boatZ = par5;
+      this.boatYaw = par7;
+      this.boatPitch = par8;
+      this.motionX = this.velocityX;
+      this.motionY = this.velocityY;
+      this.motionZ = this.velocityZ;
+   }
+
+   @SideOnly(Side.CLIENT)
+   public void setVelocity(double par1, double par3, double par5) {
+      this.velocityX = this.motionX = par1;
+      this.velocityY = this.motionY = par3;
+      this.velocityZ = this.motionZ = par5;
+   }
+
+   public void onUpdate() {
+      if (!this.isDead) {
+         this.isAirBorne = true;
+         this.setFire(0);
+         if (this.world.isRemote) {
+            if (this.boatPosRotationIncrements > 0) {
+               double d4 = this.posX + (this.boatX - this.posX) / this.boatPosRotationIncrements;
+               double d5 = this.posY + (this.boatY - this.posY) / this.boatPosRotationIncrements;
+               double d11 = this.posZ + (this.boatZ - this.posZ) / this.boatPosRotationIncrements;
+               this.setPosition(d4, d5, d11);
+               this.rotationPitch = (float)(this.rotationPitch + (this.boatPitch - this.rotationPitch) / this.boatPosRotationIncrements);
+               double d10 = MathHelper.wrapDegrees(this.boatYaw - this.rotationYaw);
+               if (this.getControllingPassenger() != null) {
+                  d10 = MathHelper.wrapDegrees((double)this.getControllingPassenger().rotationYaw - this.rotationYaw);
+               }
+
+               this.rotationYaw = (float)(this.rotationYaw + d10 / this.boatPosRotationIncrements);
+               this.setRotation(this.rotationYaw, this.rotationPitch);
+               this.boatPosRotationIncrements--;
+            }
+         } else {
+            List<Entity> var5 = this.world.getEntitiesWithinAABB(TheQueen.class, this.getEntityBoundingBox().grow(32.0, 32.0, 32.0));
+            Iterator var2 = var5.iterator();
+            Entity var3 = null;
+            TheQueen var4 = null;
+            if (var2.hasNext()) {
+               var3 = (Entity)var2.next();
+               var4 = (TheQueen)var3;
+               this.posY = var4.posY + 12.0;
+               this.posX = var4.posX - 30.0 * Math.sin(Math.toRadians(var4.rotationYawHead));
+               this.posZ = var4.posZ + 30.0 * Math.cos(Math.toRadians(var4.rotationYawHead));
+               this.rotationYaw = var4.rotationYaw;
+               this.rotationYawHead = var4.rotationYawHead;
+               this.motionX = var4.motionX;
+               this.motionY = var4.motionY;
+               this.motionZ = var4.motionZ;
+               this.setHealth(var4.getHealth());
+            } else {
+               this.setDead();
+            }
+         }
+      }
+   }
+
+    @Override
+    @SideOnly(Side.CLIENT)
+    public void setPositionAndRotationDirect(double x, double y, double z, float yaw, float pitch, int increments, boolean teleport) {
+        this.setPositionAndRotation2(x, y, z, yaw, pitch, increments);
+    }
+}

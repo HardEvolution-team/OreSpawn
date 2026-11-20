@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "used=0": { "model": "orespawn:pizza_0" },
+    "used=1": { "model": "orespawn:pizza_1" },
+    "used=2": { "model": "orespawn:pizza_2" },
+    "used=3": { "model": "orespawn:pizza_3" },
+    "used=4": { "model": "orespawn:pizza_4" },
+    "used=5": { "model": "orespawn:pizza_5" }
+  }
+}

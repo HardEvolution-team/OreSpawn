@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "orespawn:blocks/crystalfurnace_front_on",
+    "down": "orespawn:blocks/crystalfurnace_top",
+    "up": "orespawn:blocks/crystalfurnace_top",
+    "north": "orespawn:blocks/crystalfurnace_front_on",
+    "south": "orespawn:blocks/crystalfurnace_side",
+    "west": "orespawn:blocks/crystalfurnace_side",
+    "east": "orespawn:blocks/crystalfurnace_side"
+  }
+}

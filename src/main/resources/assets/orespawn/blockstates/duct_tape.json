@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "used=0": { "model": "orespawn:duct_tape_0" },
+    "used=1": { "model": "orespawn:duct_tape_1" },
+    "used=2": { "model": "orespawn:duct_tape_2" },
+    "used=3": { "model": "orespawn:duct_tape_3" },
+    "used=4": { "model": "orespawn:duct_tape_4" },
+    "used=5": { "model": "orespawn:duct_tape_5" }
+  }
+}

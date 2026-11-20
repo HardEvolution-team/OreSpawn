@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/normal_torch_wall",
+  "textures": {
+    "torch": "orespawn:blocks/creeperrepellent"
+  }
+}

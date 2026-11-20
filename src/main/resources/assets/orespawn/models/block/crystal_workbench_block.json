@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "orespawn:blocks/crystalworkbench_side",
+    "up": "orespawn:blocks/crystalworkbench_top",
+    "north": "orespawn:blocks/crystalworkbench_bottom",
+    "south": "orespawn:blocks/crystalworkbench_side",
+    "west": "orespawn:blocks/crystalworkbench_bottom",
+    "east": "orespawn:blocks/crystalworkbench_side",
+    "particle": "orespawn:blocks/crystalworkbench_side"
+  }
+}
