@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderSpiderRobot extends RenderLiving<SpiderRobot> {
    protected ModelSpiderRobot model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "spiderrobottexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "spiderrobottexture.png");
 
    public RenderSpiderRobot(RenderManager par1RenderManager, ModelSpiderRobot par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

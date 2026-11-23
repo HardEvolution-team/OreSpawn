@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderSeaViper extends RenderLiving<SeaViper> {
    protected ModelSeaViper model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "seavipertexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "seavipertexture.png");
 
    public RenderSeaViper(RenderManager par1RenderManager, ModelSeaViper par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

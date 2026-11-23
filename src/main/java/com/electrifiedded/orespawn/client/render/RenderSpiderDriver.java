@@ -8,7 +8,7 @@ import net.minecraft.client.renderer.entity.RenderSpider;
 import net.minecraft.util.ResourceLocation;
 
 public class RenderSpiderDriver extends RenderSpider<SpiderDriver> {
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "spiderdriver.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "spiderdriver.png");
 
    public RenderSpiderDriver(RenderManager mgr) {
       super(mgr);

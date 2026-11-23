@@ -36,15 +36,15 @@ import net.minecraft.world.World;
 public class Fairy extends EntityAmbientCreature {
     private static final DataParameter<Integer> DW_20 = EntityDataManager.<Integer>createKey(Fairy.class, DataSerializers.VARINT);
 
-   private static final ResourceLocation texture0 = new ResourceLocation("orespawn", "fairytexture.png");
-   private static final ResourceLocation texture1 = new ResourceLocation("orespawn", "fairytexture2.png");
-   private static final ResourceLocation texture2 = new ResourceLocation("orespawn", "fairytexture3.png");
-   private static final ResourceLocation texture3 = new ResourceLocation("orespawn", "fairytexture4.png");
-   private static final ResourceLocation texture4 = new ResourceLocation("orespawn", "fairytexture5.png");
-   private static final ResourceLocation texture5 = new ResourceLocation("orespawn", "fairytexture6.png");
-   private static final ResourceLocation texture6 = new ResourceLocation("orespawn", "fairytexture7.png");
-   private static final ResourceLocation texture7 = new ResourceLocation("orespawn", "fairytexture8.png");
-   private static final ResourceLocation texture8 = new ResourceLocation("orespawn", "fairytexture9.png");
+   private static final ResourceLocation texture0 = new ResourceLocation("orespawndedsport", "fairytexture.png");
+   private static final ResourceLocation texture1 = new ResourceLocation("orespawndedsport", "fairytexture2.png");
+   private static final ResourceLocation texture2 = new ResourceLocation("orespawndedsport", "fairytexture3.png");
+   private static final ResourceLocation texture3 = new ResourceLocation("orespawndedsport", "fairytexture4.png");
+   private static final ResourceLocation texture4 = new ResourceLocation("orespawndedsport", "fairytexture5.png");
+   private static final ResourceLocation texture5 = new ResourceLocation("orespawndedsport", "fairytexture6.png");
+   private static final ResourceLocation texture6 = new ResourceLocation("orespawndedsport", "fairytexture7.png");
+   private static final ResourceLocation texture7 = new ResourceLocation("orespawndedsport", "fairytexture8.png");
+   private static final ResourceLocation texture8 = new ResourceLocation("orespawndedsport", "fairytexture9.png");
    int my_blink = 0;
    int blinker = 0;
    int myspace = 0;

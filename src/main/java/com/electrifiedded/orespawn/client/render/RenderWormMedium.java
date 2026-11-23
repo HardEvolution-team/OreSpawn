@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderWormMedium extends RenderLiving<WormMedium> {
    protected ModelWormMedium model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "wormmediumtexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "wormmediumtexture.png");
 
    public RenderWormMedium(RenderManager par1RenderManager, ModelWormMedium par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

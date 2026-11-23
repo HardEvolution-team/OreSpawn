@@ -14,11 +14,11 @@ import org.lwjgl.opengl.GL11;
 public class RenderPurplePower extends RenderLiving<PurplePower> {
    protected ModelPurplePower model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "purplepowertexture.png");
-   private static final ResourceLocation texture2 = new ResourceLocation("orespawn", "purplepowertexture2.png");
-   private static final ResourceLocation texture3 = new ResourceLocation("orespawn", "purplepowertexture3.png");
-   private static final ResourceLocation texture4 = new ResourceLocation("orespawn", "purplepowertexture4.png");
-   private static final ResourceLocation texture10 = new ResourceLocation("orespawn", "purplepowertexture10.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "purplepowertexture.png");
+   private static final ResourceLocation texture2 = new ResourceLocation("orespawndedsport", "purplepowertexture2.png");
+   private static final ResourceLocation texture3 = new ResourceLocation("orespawndedsport", "purplepowertexture3.png");
+   private static final ResourceLocation texture4 = new ResourceLocation("orespawndedsport", "purplepowertexture4.png");
+   private static final ResourceLocation texture10 = new ResourceLocation("orespawndedsport", "purplepowertexture10.png");
 
    public RenderPurplePower(RenderManager par1RenderManager, ModelPurplePower par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderDungeonBeast extends RenderLiving<DungeonBeast> {
    protected ModelDungeonBeast model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "botwtexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "botwtexture.png");
 
    public RenderDungeonBeast(RenderManager par1RenderManager, ModelDungeonBeast par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

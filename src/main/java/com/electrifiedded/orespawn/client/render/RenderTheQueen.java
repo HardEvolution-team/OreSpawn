@@ -17,8 +17,8 @@ import org.lwjgl.opengl.GL11;
 public class RenderTheQueen extends RenderLiving<TheQueen> {
    protected ModelTheQueen model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "thequeentexture.png");
-   private static final ResourceLocation texture2 = new ResourceLocation("orespawn", "thequeentexture2.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "thequeentexture.png");
+   private static final ResourceLocation texture2 = new ResourceLocation("orespawndedsport", "thequeentexture2.png");
 
    public RenderTheQueen(RenderManager par1RenderManager, ModelTheQueen par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

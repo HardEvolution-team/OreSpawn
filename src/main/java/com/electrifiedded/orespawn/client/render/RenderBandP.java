@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderBandP extends RenderLiving<BandP> {
    protected ModelBandP model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "bandptexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "bandptexture.png");
 
    public RenderBandP(RenderManager par1RenderManager, ModelBandP par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

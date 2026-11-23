@@ -17,7 +17,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderTheKing extends RenderLiving<TheKing> {
    protected ModelTheKing model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "thekingtexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "thekingtexture.png");
 
    public RenderTheKing(RenderManager par1RenderManager, ModelTheKing par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

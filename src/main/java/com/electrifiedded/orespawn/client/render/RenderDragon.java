@@ -16,8 +16,8 @@ import org.lwjgl.opengl.GL11;
 public class RenderDragon extends RenderLiving<Dragon> {
    protected ModelDragon model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "dragon.png");
-   private static final ResourceLocation texture2 = new ResourceLocation("orespawn", "whitedragon.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "dragon.png");
+   private static final ResourceLocation texture2 = new ResourceLocation("orespawndedsport", "whitedragon.png");
 
    public RenderDragon(RenderManager par1RenderManager, ModelDragon par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

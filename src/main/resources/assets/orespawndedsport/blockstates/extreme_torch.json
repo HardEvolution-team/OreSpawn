@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=up": { "model": "orespawndedsport:extreme_torch" },
+    "facing=east": { "model": "orespawndedsport:extreme_torch_wall" },
+    "facing=west": { "model": "orespawndedsport:extreme_torch_wall", "y": 180 },
+    "facing=south": { "model": "orespawndedsport:extreme_torch_wall", "y": 90 },
+    "facing=north": { "model": "orespawndedsport:extreme_torch_wall", "y": 270 }
+  }
+}
+

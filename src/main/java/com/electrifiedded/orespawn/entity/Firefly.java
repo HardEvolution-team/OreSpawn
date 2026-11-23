@@ -17,7 +17,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 
 public class Firefly extends EntityAmbientCreature {
-   private static final ResourceLocation texture1 = new ResourceLocation("orespawn", "fireflytexture.png");
+   private static final ResourceLocation texture1 = new ResourceLocation("orespawndedsport", "fireflytexture.png");
    int my_blink = 0;
    int blinker = 0;
    int myspace = 0;

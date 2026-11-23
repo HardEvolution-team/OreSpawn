@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "orespawndedsport:blocks/moth_1"
+  }
+}

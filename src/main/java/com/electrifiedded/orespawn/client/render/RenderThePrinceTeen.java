@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderThePrinceTeen extends RenderLiving<ThePrinceTeen> {
    protected ModelThePrinceTeen model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "princeteentexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "princeteentexture.png");
 
    public RenderThePrinceTeen(RenderManager par1RenderManager, ModelThePrinceTeen par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "orespawndedsport:butterfly_plant_0"
+    },
+    "age=1": {
+      "model": "orespawndedsport:butterfly_plant_0"
+    },
+    "age=2": {
+      "model": "orespawndedsport:butterfly_plant_1"
+    },
+    "age=3": {
+      "model": "orespawndedsport:butterfly_plant_1"
+    },
+    "age=4": {
+      "model": "orespawndedsport:butterfly_plant_2"
+    },
+    "age=5": {
+      "model": "orespawndedsport:butterfly_plant_2"
+    },
+    "age=6": {
+      "model": "orespawndedsport:butterfly_plant_2"
+    },
+    "age=7": {
+      "model": "orespawndedsport:butterfly_plant_3"
+    }
+  }
+}

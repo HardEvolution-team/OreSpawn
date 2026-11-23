@@ -1,0 +1,6 @@
+{
+  "parent": "orespawndedsport:block/tinted_cube_all",
+  "textures": {
+    "all": "orespawndedsport:blocks/crystaltreeleaves"
+  }
+}

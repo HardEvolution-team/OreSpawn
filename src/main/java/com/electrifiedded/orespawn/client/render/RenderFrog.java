@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderFrog extends RenderLiving<Frog> {
    protected ModelFrog model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "frogtexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "frogtexture.png");
 
    public RenderFrog(RenderManager par1RenderManager, ModelFrog par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

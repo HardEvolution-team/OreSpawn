@@ -16,9 +16,9 @@ import org.lwjgl.opengl.GL11;
 public class RenderVelocityRaptor extends RenderLiving<VelocityRaptor> {
    protected ModelVelocityRaptor model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "velocityraptor.png");
-   private static final ResourceLocation texture2 = new ResourceLocation("orespawn", "velocityraptor2.png");
-   private static final ResourceLocation texture3 = new ResourceLocation("orespawn", "velocityraptor3.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "velocityraptor.png");
+   private static final ResourceLocation texture2 = new ResourceLocation("orespawndedsport", "velocityraptor2.png");
+   private static final ResourceLocation texture3 = new ResourceLocation("orespawndedsport", "velocityraptor3.png");
 
    public RenderVelocityRaptor(RenderManager par1RenderManager, ModelVelocityRaptor par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

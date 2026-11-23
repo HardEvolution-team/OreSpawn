@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderGodzilla extends RenderLiving<Godzilla> {
    protected ModelGodzilla model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "godzillatexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "godzillatexture.png");
 
    public RenderGodzilla(RenderManager par1RenderManager, ModelGodzilla par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

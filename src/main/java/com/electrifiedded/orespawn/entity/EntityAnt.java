@@ -19,11 +19,11 @@ import net.minecraft.world.World;
 
 public class EntityAnt extends EntityAnimal {
    public double moveSpeed = 0.15F;
-   private static final ResourceLocation texture1 = new ResourceLocation("orespawn", "ant.png");
-   private static final ResourceLocation texture2 = new ResourceLocation("orespawn", "red_ant.png");
-   private static final ResourceLocation texture3 = new ResourceLocation("orespawn", "rainbow_ant.png");
-   private static final ResourceLocation texture4 = new ResourceLocation("orespawn", "unstableant.png");
-   private static final ResourceLocation texture5 = new ResourceLocation("orespawn", "termite.png");
+   private static final ResourceLocation texture1 = new ResourceLocation("orespawndedsport", "ant.png");
+   private static final ResourceLocation texture2 = new ResourceLocation("orespawndedsport", "red_ant.png");
+   private static final ResourceLocation texture3 = new ResourceLocation("orespawndedsport", "rainbow_ant.png");
+   private static final ResourceLocation texture4 = new ResourceLocation("orespawndedsport", "unstableant.png");
+   private static final ResourceLocation texture5 = new ResourceLocation("orespawndedsport", "termite.png");
 
    public EntityAnt(World par1World) {
       super(par1World);

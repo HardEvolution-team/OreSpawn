@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderSkate extends RenderLiving<Skate> {
    protected ModelSkate model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "skatetexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "skatetexture.png");
 
    public RenderSkate(RenderManager par1RenderManager, ModelSkate par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

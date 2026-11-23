@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderHydrolisc extends RenderLiving<Hydrolisc> {
    protected ModelHydrolisc model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "hydrolisc.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "hydrolisc.png");
 
    public RenderHydrolisc(RenderManager par1RenderManager, ModelHydrolisc par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

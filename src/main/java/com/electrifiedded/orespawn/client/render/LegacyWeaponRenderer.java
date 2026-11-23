@@ -98,7 +98,7 @@ public final class LegacyWeaponRenderer extends TileEntityItemStackRenderer {
     }
 
     private static ResourceLocation texture(String name) {
-        return new ResourceLocation("orespawn", name);
+        return new ResourceLocation("orespawndedsport", name);
     }
 
     /** Restores the item-space matrix that 1.7.10 applied before IItemRenderer. */

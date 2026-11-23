@@ -364,4 +364,10 @@ public class Skate extends EntityMob {
          return this.world.rand.nextInt(30) != 1 ? false : this.findBuddies() <= 6;
       }
    }
+
+   @Override
+   protected net.minecraft.pathfinding.PathNavigate createNavigator(World worldIn) {
+      // perf: AI repaths every tick; reuse the path for a few ticks (ArchaicLib)
+      return new com.electrifiedded.archaiclib.legacy.entity.ThrottledPathNavigateGround(this, worldIn);
+   }
 }

@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderSeaMonster extends RenderLiving<SeaMonster> {
    protected ModelSeaMonster model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "seamonstertexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "seamonstertexture.png");
 
    public RenderSeaMonster(RenderManager par1RenderManager, ModelSeaMonster par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

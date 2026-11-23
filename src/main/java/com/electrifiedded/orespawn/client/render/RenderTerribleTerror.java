@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderTerribleTerror extends RenderLiving<TerribleTerror> {
    protected ModelTerribleTerror model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "terribleterror.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "terribleterror.png");
 
    public RenderTerribleTerror(RenderManager par1RenderManager, ModelTerribleTerror par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

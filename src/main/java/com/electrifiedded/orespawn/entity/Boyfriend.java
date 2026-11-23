@@ -139,101 +139,101 @@ public class Boyfriend extends EntityTameable implements IRangedAttackMob {
 
    private int is_prince = 0;
 
-   private static final ResourceLocation DryTexture0 = new ResourceLocation("orespawn", "boyfriend0.png");
+   private static final ResourceLocation DryTexture0 = new ResourceLocation("orespawndedsport", "boyfriend0.png");
 
-   private static final ResourceLocation DryTexture1 = new ResourceLocation("orespawn", "boyfriend1.png");
+   private static final ResourceLocation DryTexture1 = new ResourceLocation("orespawndedsport", "boyfriend1.png");
 
-   private static final ResourceLocation DryTexture2 = new ResourceLocation("orespawn", "boyfriend2.png");
+   private static final ResourceLocation DryTexture2 = new ResourceLocation("orespawndedsport", "boyfriend2.png");
 
-   private static final ResourceLocation DryTexture3 = new ResourceLocation("orespawn", "boyfriend3.png");
+   private static final ResourceLocation DryTexture3 = new ResourceLocation("orespawndedsport", "boyfriend3.png");
 
-   private static final ResourceLocation DryTexture4 = new ResourceLocation("orespawn", "boyfriend4.png");
+   private static final ResourceLocation DryTexture4 = new ResourceLocation("orespawndedsport", "boyfriend4.png");
 
-   private static final ResourceLocation DryTexture5 = new ResourceLocation("orespawn", "boyfriend5.png");
+   private static final ResourceLocation DryTexture5 = new ResourceLocation("orespawndedsport", "boyfriend5.png");
 
-   private static final ResourceLocation DryTexture6 = new ResourceLocation("orespawn", "boyfriend6.png");
+   private static final ResourceLocation DryTexture6 = new ResourceLocation("orespawndedsport", "boyfriend6.png");
 
-   private static final ResourceLocation DryTexture7 = new ResourceLocation("orespawn", "boyfriend7.png");
+   private static final ResourceLocation DryTexture7 = new ResourceLocation("orespawndedsport", "boyfriend7.png");
 
-   private static final ResourceLocation DryTexture8 = new ResourceLocation("orespawn", "boyfriend8.png");
+   private static final ResourceLocation DryTexture8 = new ResourceLocation("orespawndedsport", "boyfriend8.png");
 
-   private static final ResourceLocation DryTexture9 = new ResourceLocation("orespawn", "boyfriend9.png");
+   private static final ResourceLocation DryTexture9 = new ResourceLocation("orespawndedsport", "boyfriend9.png");
 
-   private static final ResourceLocation DryTexture10 = new ResourceLocation("orespawn", "boyfriend10.png");
+   private static final ResourceLocation DryTexture10 = new ResourceLocation("orespawndedsport", "boyfriend10.png");
 
-   private static final ResourceLocation DryTexture11 = new ResourceLocation("orespawn", "boyfriend11.png");
+   private static final ResourceLocation DryTexture11 = new ResourceLocation("orespawndedsport", "boyfriend11.png");
 
-   private static final ResourceLocation DryTexture12 = new ResourceLocation("orespawn", "boyfriend12.png");
+   private static final ResourceLocation DryTexture12 = new ResourceLocation("orespawndedsport", "boyfriend12.png");
 
-   private static final ResourceLocation DryTexture13 = new ResourceLocation("orespawn", "boyfriend13.png");
+   private static final ResourceLocation DryTexture13 = new ResourceLocation("orespawndedsport", "boyfriend13.png");
 
-   private static final ResourceLocation DryTexture14 = new ResourceLocation("orespawn", "boyfriend14.png");
+   private static final ResourceLocation DryTexture14 = new ResourceLocation("orespawndedsport", "boyfriend14.png");
 
-   private static final ResourceLocation DryTexture15 = new ResourceLocation("orespawn", "boyfriend15.png");
+   private static final ResourceLocation DryTexture15 = new ResourceLocation("orespawndedsport", "boyfriend15.png");
 
-   private static final ResourceLocation DryTexture16 = new ResourceLocation("orespawn", "boyfriend16.png");
+   private static final ResourceLocation DryTexture16 = new ResourceLocation("orespawndedsport", "boyfriend16.png");
 
-   private static final ResourceLocation DryTexture17 = new ResourceLocation("orespawn", "boyfriend17.png");
+   private static final ResourceLocation DryTexture17 = new ResourceLocation("orespawndedsport", "boyfriend17.png");
 
-   private static final ResourceLocation DryTexture18 = new ResourceLocation("orespawn", "boyfriend18.png");
+   private static final ResourceLocation DryTexture18 = new ResourceLocation("orespawndedsport", "boyfriend18.png");
 
-   private static final ResourceLocation DryTexture19 = new ResourceLocation("orespawn", "boyfriend19.png");
+   private static final ResourceLocation DryTexture19 = new ResourceLocation("orespawndedsport", "boyfriend19.png");
 
-   private static final ResourceLocation DryTexture20 = new ResourceLocation("orespawn", "boyfriend20.png");
+   private static final ResourceLocation DryTexture20 = new ResourceLocation("orespawndedsport", "boyfriend20.png");
 
-   private static final ResourceLocation DryTexture21 = new ResourceLocation("orespawn", "boyfriend21.png");
+   private static final ResourceLocation DryTexture21 = new ResourceLocation("orespawndedsport", "boyfriend21.png");
 
-   private static final ResourceLocation DryTexture22 = new ResourceLocation("orespawn", "boyfriend22.png");
+   private static final ResourceLocation DryTexture22 = new ResourceLocation("orespawndedsport", "boyfriend22.png");
 
-   private static final ResourceLocation DryTexture23 = new ResourceLocation("orespawn", "boyfriend23.png");
+   private static final ResourceLocation DryTexture23 = new ResourceLocation("orespawndedsport", "boyfriend23.png");
 
-   private static final ResourceLocation DryTexture24 = new ResourceLocation("orespawn", "boyfriend24.png");
+   private static final ResourceLocation DryTexture24 = new ResourceLocation("orespawndedsport", "boyfriend24.png");
 
-   private static final ResourceLocation DryTexture25 = new ResourceLocation("orespawn", "boyfriend25.png");
+   private static final ResourceLocation DryTexture25 = new ResourceLocation("orespawndedsport", "boyfriend25.png");
 
-   private static final ResourceLocation DryTexture26 = new ResourceLocation("orespawn", "boyfriend26.png");
+   private static final ResourceLocation DryTexture26 = new ResourceLocation("orespawndedsport", "boyfriend26.png");
 
-   private static final ResourceLocation DryTexture27 = new ResourceLocation("orespawn", "boyfriend27.png");
+   private static final ResourceLocation DryTexture27 = new ResourceLocation("orespawndedsport", "boyfriend27.png");
 
-   private static final ResourceLocation WetTexture0 = new ResourceLocation("orespawn", "swimshorts0.png");
+   private static final ResourceLocation WetTexture0 = new ResourceLocation("orespawndedsport", "swimshorts0.png");
 
-   private static final ResourceLocation WetTexture1 = new ResourceLocation("orespawn", "swimshorts1.png");
+   private static final ResourceLocation WetTexture1 = new ResourceLocation("orespawndedsport", "swimshorts1.png");
 
-   private static final ResourceLocation WetTexture2 = new ResourceLocation("orespawn", "swimshorts2.png");
+   private static final ResourceLocation WetTexture2 = new ResourceLocation("orespawndedsport", "swimshorts2.png");
 
-   private static final ResourceLocation WetTexture3 = new ResourceLocation("orespawn", "swimshorts3.png");
+   private static final ResourceLocation WetTexture3 = new ResourceLocation("orespawndedsport", "swimshorts3.png");
 
-   private static final ResourceLocation WetTexture4 = new ResourceLocation("orespawn", "swimshorts4.png");
+   private static final ResourceLocation WetTexture4 = new ResourceLocation("orespawndedsport", "swimshorts4.png");
 
-   private static final ResourceLocation WetTexture5 = new ResourceLocation("orespawn", "swimshorts5.png");
+   private static final ResourceLocation WetTexture5 = new ResourceLocation("orespawndedsport", "swimshorts5.png");
 
-   private static final ResourceLocation WetTexture6 = new ResourceLocation("orespawn", "swimshorts6.png");
+   private static final ResourceLocation WetTexture6 = new ResourceLocation("orespawndedsport", "swimshorts6.png");
 
-   private static final ResourceLocation WetTexture7 = new ResourceLocation("orespawn", "swimshorts7.png");
+   private static final ResourceLocation WetTexture7 = new ResourceLocation("orespawndedsport", "swimshorts7.png");
 
-   private static final ResourceLocation WetTexture8 = new ResourceLocation("orespawn", "swimshorts8.png");
+   private static final ResourceLocation WetTexture8 = new ResourceLocation("orespawndedsport", "swimshorts8.png");
 
-   private static final ResourceLocation WetTexture9 = new ResourceLocation("orespawn", "swimshorts9.png");
+   private static final ResourceLocation WetTexture9 = new ResourceLocation("orespawndedsport", "swimshorts9.png");
 
-   private static final ResourceLocation WetTexture10 = new ResourceLocation("orespawn", "swimshorts10.png");
+   private static final ResourceLocation WetTexture10 = new ResourceLocation("orespawndedsport", "swimshorts10.png");
 
-   private static final ResourceLocation WetTexture11 = new ResourceLocation("orespawn", "swimshorts11.png");
+   private static final ResourceLocation WetTexture11 = new ResourceLocation("orespawndedsport", "swimshorts11.png");
 
-   private static final ResourceLocation WetTexture12 = new ResourceLocation("orespawn", "swimshorts12.png");
+   private static final ResourceLocation WetTexture12 = new ResourceLocation("orespawndedsport", "swimshorts12.png");
 
-   private static final ResourceLocation WetTexture13 = new ResourceLocation("orespawn", "swimshorts13.png");
+   private static final ResourceLocation WetTexture13 = new ResourceLocation("orespawndedsport", "swimshorts13.png");
 
-   private static final ResourceLocation WetTexture14 = new ResourceLocation("orespawn", "swimshorts14.png");
+   private static final ResourceLocation WetTexture14 = new ResourceLocation("orespawndedsport", "swimshorts14.png");
 
-   private static final ResourceLocation WetTexture15 = new ResourceLocation("orespawn", "swimshorts15.png");
+   private static final ResourceLocation WetTexture15 = new ResourceLocation("orespawndedsport", "swimshorts15.png");
 
-   private static final ResourceLocation WetTexture16 = new ResourceLocation("orespawn", "swimshorts16.png");
+   private static final ResourceLocation WetTexture16 = new ResourceLocation("orespawndedsport", "swimshorts16.png");
 
-   private static final ResourceLocation WetTexture17 = new ResourceLocation("orespawn", "swimshorts17.png");
+   private static final ResourceLocation WetTexture17 = new ResourceLocation("orespawndedsport", "swimshorts17.png");
 
-   private static final ResourceLocation PrinceTexture1 = new ResourceLocation("orespawn", "frogprince.png");
+   private static final ResourceLocation PrinceTexture1 = new ResourceLocation("orespawndedsport", "frogprince.png");
 
-   private static final ResourceLocation PrinceTexture2 = new ResourceLocation("orespawn", "frogprince2.png");
+   private static final ResourceLocation PrinceTexture2 = new ResourceLocation("orespawndedsport", "frogprince2.png");
 
 
 
@@ -2341,6 +2341,10 @@ public class Boyfriend extends EntityTameable implements IRangedAttackMob {
    public boolean processInteract(EntityPlayer player, net.minecraft.util.EnumHand hand) {
       return interact(player, hand);
    }
+
+   @Override
+   protected net.minecraft.pathfinding.PathNavigate createNavigator(World worldIn) {
+      // perf: AI repaths every tick; reuse the path for a few ticks (ArchaicLib)
+      return new com.electrifiedded.archaiclib.legacy.entity.ThrottledPathNavigateGround(this, worldIn);
+   }
 }
-
-

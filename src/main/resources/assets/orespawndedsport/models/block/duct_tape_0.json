@@ -1,0 +1,1 @@
+{"parent":"orespawndedsport:block/duct_tape","elements":[{"from":[1,0,1],"to":[15,4,15],"faces":{"down":{"texture":"#down"},"up":{"texture":"#up"},"north":{"texture":"#north"},"south":{"texture":"#south"},"west":{"texture":"#west"},"east":{"texture":"#east"}}}]}

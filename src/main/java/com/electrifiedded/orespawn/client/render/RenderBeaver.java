@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderBeaver extends RenderLiving<Beaver> {
    protected ModelBeaver model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "beavertexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "beavertexture.png");
 
    public RenderBeaver(RenderManager par1RenderManager, ModelBeaver par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

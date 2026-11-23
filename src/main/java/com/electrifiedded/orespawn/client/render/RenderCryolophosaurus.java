@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderCryolophosaurus extends RenderLiving<Cryolophosaurus> {
    protected ModelCryolophosaurus model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "cryolophosaurus.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "cryolophosaurus.png");
 
    public RenderCryolophosaurus(RenderManager par1RenderManager, ModelCryolophosaurus par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

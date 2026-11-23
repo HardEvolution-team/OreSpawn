@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderWormSmall extends RenderLiving<WormSmall> {
    protected ModelWormSmall model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "wormsmalltexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "wormsmalltexture.png");
 
    public RenderWormSmall(RenderManager par1RenderManager, ModelWormSmall par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

@@ -1,0 +1,1904 @@
+{
+  "b_death_single": {"category":"neutral","sounds":["orespawndedsport:b_death_single1","orespawndedsport:b_death_single2"]},
+  "b_fight": {"category":"neutral","sounds":["orespawndedsport:b_fight1","orespawndedsport:b_fight2","orespawndedsport:b_fight3","orespawndedsport:b_fight4","orespawndedsport:b_fight5","orespawndedsport:b_fight6","orespawndedsport:b_fight7"]},
+  "b_happy": {"category":"neutral","sounds":["orespawndedsport:b_happy1","orespawndedsport:b_happy2","orespawndedsport:b_happy3","orespawndedsport:b_happy4","orespawndedsport:b_happy5","orespawndedsport:b_happy6","orespawndedsport:b_happy7","orespawndedsport:b_happy8"]},
+  "b_hurt": {"category":"neutral","sounds":["orespawndedsport:b_hurt1","orespawndedsport:b_hurt2","orespawndedsport:b_hurt3","orespawndedsport:b_hurt4","orespawndedsport:b_hurt5","orespawndedsport:b_hurt6","orespawndedsport:b_hurt7","orespawndedsport:b_hurt8","orespawndedsport:b_hurt9","orespawndedsport:b_hurt10"]},
+  "b_ow": {"category":"neutral","sounds":["orespawndedsport:b_ow1","orespawndedsport:b_ow2","orespawndedsport:b_ow3","orespawndedsport:b_ow4","orespawndedsport:b_ow5","orespawndedsport:b_ow6","orespawndedsport:b_ow7","orespawndedsport:b_ow8","orespawndedsport:b_ow9"]},
+  "b_rain": {"category":"neutral","sounds":["orespawndedsport:b_rain1","orespawndedsport:b_rain2"]},
+  "b_taunt": {"category":"neutral","sounds":["orespawndedsport:b_taunt1","orespawndedsport:b_taunt2","orespawndedsport:b_taunt3","orespawndedsport:b_taunt4","orespawndedsport:b_taunt5","orespawndedsport:b_taunt6"]},
+  "b_water": {"category":"neutral","sounds":["orespawndedsport:b_water1","orespawndedsport:b_water2"]},
+  "b_woohoo": {"category":"neutral","sounds":["orespawndedsport:b_woohoo1","orespawndedsport:b_woohoo2","orespawndedsport:b_woohoo3","orespawndedsport:b_woohoo4"]},
+  "bb_happy": {"category":"neutral","sounds":["orespawndedsport:bb_happy1","orespawndedsport:bb_happy2","orespawndedsport:bb_happy3","orespawndedsport:bb_happy4","orespawndedsport:bb_happy5","orespawndedsport:bb_happy6"]},
+  "birds": {"category":"neutral","sounds":["orespawndedsport:birds1","orespawndedsport:birds2","orespawndedsport:birds3","orespawndedsport:birds4","orespawndedsport:birds5","orespawndedsport:birds6","orespawndedsport:birds7","orespawndedsport:birds8","orespawndedsport:birds9","orespawndedsport:birds10","orespawndedsport:birds11","orespawndedsport:birds12","orespawndedsport:birds13","orespawndedsport:birds14","orespawndedsport:birds15","orespawndedsport:birds16","orespawndedsport:birds17","orespawndedsport:birds18","orespawndedsport:birds19","orespawndedsport:birds20","orespawndedsport:birds21","orespawndedsport:birds22","orespawndedsport:birds23"]},
+  "caterkiller_hit": {"category":"neutral","sounds":["orespawndedsport:caterkiller_hit1","orespawndedsport:caterkiller_hit2","orespawndedsport:caterkiller_hit3","orespawndedsport:caterkiller_hit4"]},
+  "caterkiller_living": {"category":"neutral","sounds":["orespawndedsport:caterkiller_living1","orespawndedsport:caterkiller_living2","orespawndedsport:caterkiller_living3","orespawndedsport:caterkiller_living4"]},
+  "clatter": {"category":"neutral","sounds":["orespawndedsport:clatter1","orespawndedsport:clatter2"]},
+  "dbhit": {"category":"neutral","sounds":["orespawndedsport:dbhit1","orespawndedsport:dbhit2","orespawndedsport:dbhit3"]},
+  "fart": {"category":"neutral","sounds":["orespawndedsport:fart1","orespawndedsport:fart2","orespawndedsport:fart3","orespawndedsport:fart4","orespawndedsport:fart5","orespawndedsport:fart6","orespawndedsport:fart7","orespawndedsport:fart8","orespawndedsport:fart9"]},
+  "glassdead": {"category":"neutral","sounds":["orespawndedsport:glassdead1","orespawndedsport:glassdead2"]},
+  "glasshit": {"category":"neutral","sounds":["orespawndedsport:glasshit1","orespawndedsport:glasshit2","orespawndedsport:glasshit3","orespawndedsport:glasshit4","orespawndedsport:glasshit5"]},
+  "hammerhead_living": {"category":"neutral","sounds":["orespawndedsport:hammerhead_living1","orespawndedsport:hammerhead_living2"]},
+  "hover": {"category":"neutral","sounds":["orespawndedsport:hover1","orespawndedsport:hover2","orespawndedsport:hover3","orespawndedsport:hover4","orespawndedsport:hover5","orespawndedsport:hover6"]},
+  "leon_hit": {"category":"neutral","sounds":["orespawndedsport:leon_hit1","orespawndedsport:leon_hit2","orespawndedsport:leon_hit3"]},
+  "molenoid_hit": {"category":"neutral","sounds":["orespawndedsport:molenoid_hit1","orespawndedsport:molenoid_hit2","orespawndedsport:molenoid_hit3","orespawndedsport:molenoid_hit4","orespawndedsport:molenoid_hit5","orespawndedsport:molenoid_hit6"]},
+  "molenoid_living": {"category":"neutral","sounds":["orespawndedsport:molenoid_living1","orespawndedsport:molenoid_living2","orespawndedsport:molenoid_living3"]},
+  "mothrawings": {"category":"neutral","sounds":["orespawndedsport:mothrawings1","orespawndedsport:mothrawings2","orespawndedsport:mothrawings3"]},
+  "o_fight": {"category":"neutral","sounds":["orespawndedsport:o_fight1","orespawndedsport:o_fight2","orespawndedsport:o_fight3","orespawndedsport:o_fight4","orespawndedsport:o_fight5","orespawndedsport:o_fight6","orespawndedsport:o_fight7"]},
+  "o_happy": {"category":"neutral","sounds":["orespawndedsport:o_happy1","orespawndedsport:o_happy2","orespawndedsport:o_happy3","orespawndedsport:o_happy4","orespawndedsport:o_happy5","orespawndedsport:o_happy6","orespawndedsport:o_happy7"]},
+  "o_hurt": {"category":"neutral","sounds":["orespawndedsport:o_hurt1","orespawndedsport:o_hurt2","orespawndedsport:o_hurt3","orespawndedsport:o_hurt4","orespawndedsport:o_hurt5","orespawndedsport:o_hurt6","orespawndedsport:o_hurt7","orespawndedsport:o_hurt8","orespawndedsport:o_hurt9"]},
+  "o_ow": {"category":"neutral","sounds":["orespawndedsport:o_ow1","orespawndedsport:o_ow2","orespawndedsport:o_ow3","orespawndedsport:o_ow4","orespawndedsport:o_ow5","orespawndedsport:o_ow6","orespawndedsport:o_ow7","orespawndedsport:o_ow8"]},
+  "o_taunt": {"category":"neutral","sounds":["orespawndedsport:o_taunt1","orespawndedsport:o_taunt2","orespawndedsport:o_taunt3","orespawndedsport:o_taunt4"]},
+  "o_water": {"category":"neutral","sounds":["orespawndedsport:o_water1","orespawndedsport:o_water2"]},
+  "o_woohoo": {"category":"neutral","sounds":["orespawndedsport:o_woohoo1","orespawndedsport:o_woohoo2","orespawndedsport:o_woohoo3","orespawndedsport:o_woohoo4"]},
+  "ratdead": {"category":"neutral","sounds":["orespawndedsport:ratdead1","orespawndedsport:ratdead2","orespawndedsport:ratdead3"]},
+  "roar": {"category":"neutral","sounds":["orespawndedsport:roar1","orespawndedsport:roar2","orespawndedsport:roar3","orespawndedsport:roar4","orespawndedsport:roar5","orespawndedsport:roar6"]},
+  "robot_death": {"category":"neutral","sounds":["orespawndedsport:robot_death1","orespawndedsport:robot_death2","orespawndedsport:robot_death3","orespawndedsport:robot_death4","orespawndedsport:robot_death5"]},
+  "robot_hurt": {"category":"neutral","sounds":["orespawndedsport:robot_hurt1","orespawndedsport:robot_hurt2","orespawndedsport:robot_hurt3","orespawndedsport:robot_hurt4","orespawndedsport:robot_hurt5","orespawndedsport:robot_hurt6","orespawndedsport:robot_hurt7","orespawndedsport:robot_hurt8"]},
+  "robot_living": {"category":"neutral","sounds":["orespawndedsport:robot_living1","orespawndedsport:robot_living2","orespawndedsport:robot_living3","orespawndedsport:robot_living4"]},
+  "robotspider": {"category":"neutral","sounds":["orespawndedsport:robotspider1","orespawndedsport:robotspider2","orespawndedsport:robotspider3","orespawndedsport:robotspider4","orespawndedsport:robotspider5","orespawndedsport:robotspider6","orespawndedsport:robotspider7","orespawndedsport:robotspider8","orespawndedsport:robotspider9","orespawndedsport:robotspider10","orespawndedsport:robotspider11"]},
+  "seamonster_living": {"category":"neutral","sounds":["orespawndedsport:seamonster_living1","orespawndedsport:seamonster_living2"]},
+  "seaviper_hit": {"category":"neutral","sounds":["orespawndedsport:seaviper_hit1","orespawndedsport:seaviper_hit2","orespawndedsport:seaviper_hit3"]},
+  "squid_death": {"category":"neutral","sounds":["orespawndedsport:squid_death1","orespawndedsport:squid_death2"]},
+  "squid_hurt": {"category":"neutral","sounds":["orespawndedsport:squid_hurt1","orespawndedsport:squid_hurt2","orespawndedsport:squid_hurt3","orespawndedsport:squid_hurt4"]},
+  "waterdragon_hurt": {"category":"neutral","sounds":["orespawndedsport:waterdragon_hurt1","orespawndedsport:waterdragon_hurt2","orespawndedsport:waterdragon_hurt3"]},
+  "alien_death": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:alien_death"
+    ]
+  },
+  "alien_hurt": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:alien_hurt"
+    ]
+  },
+  "alien_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:alien_living"
+    ]
+  },
+  "alo_death": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:alo_death"
+    ]
+  },
+  "alo_hurt": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:alo_hurt"
+    ]
+  },
+  "alo_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:alo_living"
+    ]
+  },
+  "b_dark": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_dark"
+    ]
+  },
+  "b_death_boyfriend": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_death_boyfriend"
+    ]
+  },
+  "b_death_single1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_death_single1"
+    ]
+  },
+  "b_death_single2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_death_single2"
+    ]
+  },
+  "b_fight1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_fight1"
+    ]
+  },
+  "b_fight2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_fight2"
+    ]
+  },
+  "b_fight3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_fight3"
+    ]
+  },
+  "b_fight4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_fight4"
+    ]
+  },
+  "b_fight5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_fight5"
+    ]
+  },
+  "b_fight6": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_fight6"
+    ]
+  },
+  "b_fight7": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_fight7"
+    ]
+  },
+  "b_happy1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_happy1"
+    ]
+  },
+  "b_happy2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_happy2"
+    ]
+  },
+  "b_happy3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_happy3"
+    ]
+  },
+  "b_happy4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_happy4"
+    ]
+  },
+  "b_happy5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_happy5"
+    ]
+  },
+  "b_happy6": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_happy6"
+    ]
+  },
+  "b_happy7": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_happy7"
+    ]
+  },
+  "b_happy8": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_happy8"
+    ]
+  },
+  "b_hurt1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_hurt1"
+    ]
+  },
+  "b_hurt10": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_hurt10"
+    ]
+  },
+  "b_hurt2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_hurt2"
+    ]
+  },
+  "b_hurt3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_hurt3"
+    ]
+  },
+  "b_hurt4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_hurt4"
+    ]
+  },
+  "b_hurt5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_hurt5"
+    ]
+  },
+  "b_hurt6": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_hurt6"
+    ]
+  },
+  "b_hurt7": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_hurt7"
+    ]
+  },
+  "b_hurt8": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_hurt8"
+    ]
+  },
+  "b_hurt9": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_hurt9"
+    ]
+  },
+  "b_ow1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_ow1"
+    ]
+  },
+  "b_ow2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_ow2"
+    ]
+  },
+  "b_ow3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_ow3"
+    ]
+  },
+  "b_ow4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_ow4"
+    ]
+  },
+  "b_ow5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_ow5"
+    ]
+  },
+  "b_ow6": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_ow6"
+    ]
+  },
+  "b_ow7": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_ow7"
+    ]
+  },
+  "b_ow8": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_ow8"
+    ]
+  },
+  "b_ow9": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_ow9"
+    ]
+  },
+  "b_rain1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_rain1"
+    ]
+  },
+  "b_rain2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_rain2"
+    ]
+  },
+  "b_taunt1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_taunt1"
+    ]
+  },
+  "b_taunt2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_taunt2"
+    ]
+  },
+  "b_taunt3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_taunt3"
+    ]
+  },
+  "b_taunt4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_taunt4"
+    ]
+  },
+  "b_taunt5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_taunt5"
+    ]
+  },
+  "b_taunt6": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_taunt6"
+    ]
+  },
+  "b_thunder": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_thunder"
+    ]
+  },
+  "b_water1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_water1"
+    ]
+  },
+  "b_water2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_water2"
+    ]
+  },
+  "b_woohoo1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_woohoo1"
+    ]
+  },
+  "b_woohoo2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_woohoo2"
+    ]
+  },
+  "b_woohoo3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_woohoo3"
+    ]
+  },
+  "b_woohoo4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:b_woohoo4"
+    ]
+  },
+  "basilisk_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:basilisk_living"
+    ]
+  },
+  "bb_happy1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:bb_happy1"
+    ]
+  },
+  "bb_happy2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:bb_happy2"
+    ]
+  },
+  "bb_happy3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:bb_happy3"
+    ]
+  },
+  "bb_happy4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:bb_happy4"
+    ]
+  },
+  "bb_happy5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:bb_happy5"
+    ]
+  },
+  "bb_happy6": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:bb_happy6"
+    ]
+  },
+  "beebuzz": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:beebuzz"
+    ]
+  },
+  "big_splat": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:big_splat"
+    ]
+  },
+  "birds1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds1"
+    ]
+  },
+  "birds10": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds10"
+    ]
+  },
+  "birds11": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds11"
+    ]
+  },
+  "birds12": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds12"
+    ]
+  },
+  "birds13": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds13"
+    ]
+  },
+  "birds14": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds14"
+    ]
+  },
+  "birds15": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds15"
+    ]
+  },
+  "birds16": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds16"
+    ]
+  },
+  "birds17": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds17"
+    ]
+  },
+  "birds18": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds18"
+    ]
+  },
+  "birds19": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds19"
+    ]
+  },
+  "birds2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds2"
+    ]
+  },
+  "birds20": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds20"
+    ]
+  },
+  "birds21": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds21"
+    ]
+  },
+  "birds22": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds22"
+    ]
+  },
+  "birds23": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds23"
+    ]
+  },
+  "birds3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds3"
+    ]
+  },
+  "birds4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds4"
+    ]
+  },
+  "birds5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds5"
+    ]
+  },
+  "birds6": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds6"
+    ]
+  },
+  "birds7": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds7"
+    ]
+  },
+  "birds8": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds8"
+    ]
+  },
+  "birds9": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:birds9"
+    ]
+  },
+  "caterkiller_death": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:caterkiller_death"
+    ]
+  },
+  "caterkiller_hit1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:caterkiller_hit1"
+    ]
+  },
+  "caterkiller_hit2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:caterkiller_hit2"
+    ]
+  },
+  "caterkiller_hit3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:caterkiller_hit3"
+    ]
+  },
+  "caterkiller_hit4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:caterkiller_hit4"
+    ]
+  },
+  "caterkiller_living1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:caterkiller_living1"
+    ]
+  },
+  "caterkiller_living2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:caterkiller_living2"
+    ]
+  },
+  "caterkiller_living3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:caterkiller_living3"
+    ]
+  },
+  "caterkiller_living4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:caterkiller_living4"
+    ]
+  },
+  "chain_rattles": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:chain_rattles"
+    ]
+  },
+  "chainsaw": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:chainsaw"
+    ]
+  },
+  "chainsawshort": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:chainsawshort"
+    ]
+  },
+  "clatter1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:clatter1"
+    ]
+  },
+  "clatter2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:clatter2"
+    ]
+  },
+  "cliffracer": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:cliffracer"
+    ]
+  },
+  "creepinghorror_dead": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:creepinghorror_dead"
+    ]
+  },
+  "creepinghorror_hit": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:creepinghorror_hit"
+    ]
+  },
+  "creepinghorror_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:creepinghorror_living"
+    ]
+  },
+  "cricket": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:cricket"
+    ]
+  },
+  "crunch": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:crunch"
+    ]
+  },
+  "cryo_death": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:cryo_death"
+    ]
+  },
+  "cryo_hurt": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:cryo_hurt"
+    ]
+  },
+  "cryo_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:cryo_living"
+    ]
+  },
+  "dbdead": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:dbdead"
+    ]
+  },
+  "dbhit1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:dbhit1"
+    ]
+  },
+  "dbhit2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:dbhit2"
+    ]
+  },
+  "dbhit3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:dbhit3"
+    ]
+  },
+  "dragonfly_death": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:dragonfly_death"
+    ]
+  },
+  "dragonfly_hurt": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:dragonfly_hurt"
+    ]
+  },
+  "dragonfly_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:dragonfly_living"
+    ]
+  },
+  "duck_hurt": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:duck_hurt"
+    ]
+  },
+  "emperorscorpion_death": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:emperorscorpion_death"
+    ]
+  },
+  "fart1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:fart1"
+    ]
+  },
+  "fart2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:fart2"
+    ]
+  },
+  "fart3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:fart3"
+    ]
+  },
+  "fart4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:fart4"
+    ]
+  },
+  "fart5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:fart5"
+    ]
+  },
+  "fart6": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:fart6"
+    ]
+  },
+  "fart7": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:fart7"
+    ]
+  },
+  "fart8": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:fart8"
+    ]
+  },
+  "fart9": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:fart9"
+    ]
+  },
+  "frog1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:frog1"
+    ]
+  },
+  "frog2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:frog2"
+    ]
+  },
+  "ghost_sound": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:ghost_sound"
+    ]
+  },
+  "glassdead1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:glassdead1"
+    ]
+  },
+  "glassdead2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:glassdead2"
+    ]
+  },
+  "glasshit1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:glasshit1"
+    ]
+  },
+  "glasshit2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:glasshit2"
+    ]
+  },
+  "glasshit3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:glasshit3"
+    ]
+  },
+  "glasshit4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:glasshit4"
+    ]
+  },
+  "glasshit5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:glasshit5"
+    ]
+  },
+  "godzilla_death": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:godzilla_death"
+    ]
+  },
+  "godzilla_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:godzilla_living"
+    ]
+  },
+  "hammerhead_death": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:hammerhead_death"
+    ]
+  },
+  "hammerhead_living1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:hammerhead_living1"
+    ]
+  },
+  "hammerhead_living2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:hammerhead_living2"
+    ]
+  },
+  "hercules_death": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:caterkiller_death"
+    ]
+  },
+  "hover1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:hover1"
+    ]
+  },
+  "hover2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:hover2"
+    ]
+  },
+  "hover3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:hover3"
+    ]
+  },
+  "hover4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:hover4"
+    ]
+  },
+  "hover5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:hover5"
+    ]
+  },
+  "hover6": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:hover6"
+    ]
+  },
+  "king_hit": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:king_hit"
+    ]
+  },
+  "king_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:king_living"
+    ]
+  },
+  "kraken_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:kraken_living"
+    ]
+  },
+  "kyuubi_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:kyuubi_living"
+    ]
+  },
+  "leaves_death": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:leaves_death"
+    ]
+  },
+  "leaves_hit": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:leaves_hit"
+    ]
+  },
+  "leon_death": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:leon_death"
+    ]
+  },
+  "leon_hit1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:leon_hit1"
+    ]
+  },
+  "leon_hit2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:leon_hit2"
+    ]
+  },
+  "leon_hit3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:leon_hit3"
+    ]
+  },
+  "leon_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:leon_living"
+    ]
+  },
+  "little_splat": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:little_splat"
+    ]
+  },
+  "lurkinghorror_dead": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:lurkinghorror_dead"
+    ]
+  },
+  "lurkinghorror_hit": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:lurkinghorror_hit"
+    ]
+  },
+  "lurkinghorror_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:lurkinghorror_living"
+    ]
+  },
+  "molenoid_death": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:molenoid_death"
+    ]
+  },
+  "molenoid_hit1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:molenoid_hit1"
+    ]
+  },
+  "molenoid_hit2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:molenoid_hit2"
+    ]
+  },
+  "molenoid_hit3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:molenoid_hit3"
+    ]
+  },
+  "molenoid_hit4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:molenoid_hit4"
+    ]
+  },
+  "molenoid_hit5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:molenoid_hit5"
+    ]
+  },
+  "molenoid_hit6": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:molenoid_hit6"
+    ]
+  },
+  "molenoid_living1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:molenoid_living1"
+    ]
+  },
+  "molenoid_living2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:molenoid_living2"
+    ]
+  },
+  "molenoid_living3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:molenoid_living3"
+    ]
+  },
+  "mosquito": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:mosquito"
+    ]
+  },
+  "mothrawings1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:mothrawings1"
+    ]
+  },
+  "mothrawings2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:mothrawings2"
+    ]
+  },
+  "mothrawings3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:mothrawings3"
+    ]
+  },
+  "o_dark": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_dark"
+    ]
+  },
+  "o_death_girlfriend": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_death_girlfriend"
+    ]
+  },
+  "o_death_single": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_death_single"
+    ]
+  },
+  "o_fight1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_fight1"
+    ]
+  },
+  "o_fight2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_fight2"
+    ]
+  },
+  "o_fight3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_fight3"
+    ]
+  },
+  "o_fight4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_fight4"
+    ]
+  },
+  "o_fight5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_fight5"
+    ]
+  },
+  "o_fight6": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_fight6"
+    ]
+  },
+  "o_fight7": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_fight7"
+    ]
+  },
+  "o_happy1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_happy1"
+    ]
+  },
+  "o_happy2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_happy2"
+    ]
+  },
+  "o_happy3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_happy3"
+    ]
+  },
+  "o_happy4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_happy4"
+    ]
+  },
+  "o_happy5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_happy5"
+    ]
+  },
+  "o_happy6": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_happy6"
+    ]
+  },
+  "o_happy7": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_happy7"
+    ]
+  },
+  "o_hurt1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_hurt1"
+    ]
+  },
+  "o_hurt2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_hurt2"
+    ]
+  },
+  "o_hurt3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_hurt3"
+    ]
+  },
+  "o_hurt4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_hurt4"
+    ]
+  },
+  "o_hurt5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_hurt5"
+    ]
+  },
+  "o_hurt6": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_hurt6"
+    ]
+  },
+  "o_hurt7": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_hurt7"
+    ]
+  },
+  "o_hurt8": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_hurt8"
+    ]
+  },
+  "o_hurt9": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_hurt9"
+    ]
+  },
+  "o_ow1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_ow1"
+    ]
+  },
+  "o_ow2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_ow2"
+    ]
+  },
+  "o_ow3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_ow3"
+    ]
+  },
+  "o_ow4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_ow4"
+    ]
+  },
+  "o_ow5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_ow5"
+    ]
+  },
+  "o_ow6": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_ow6"
+    ]
+  },
+  "o_ow7": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_ow7"
+    ]
+  },
+  "o_ow8": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_ow8"
+    ]
+  },
+  "o_rain": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_rain"
+    ]
+  },
+  "o_taunt1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_taunt1"
+    ]
+  },
+  "o_taunt2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_taunt2"
+    ]
+  },
+  "o_taunt3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_taunt3"
+    ]
+  },
+  "o_taunt4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_taunt4"
+    ]
+  },
+  "o_thunder": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_thunder"
+    ]
+  },
+  "o_water1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_water1"
+    ]
+  },
+  "o_water2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_water2"
+    ]
+  },
+  "o_woohoo1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_woohoo1"
+    ]
+  },
+  "o_woohoo2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_woohoo2"
+    ]
+  },
+  "o_woohoo3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_woohoo3"
+    ]
+  },
+  "o_woohoo4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:o_woohoo4"
+    ]
+  },
+  "peacockdead": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:peacockdead"
+    ]
+  },
+  "peacockhit": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:peacockhit"
+    ]
+  },
+  "peacocklive": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:peacocklive"
+    ]
+  },
+  "pitchblack_dead": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:pitchblack_dead"
+    ]
+  },
+  "pitchblack_hit": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:pitchblack_hit"
+    ]
+  },
+  "pitchblack_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:pitchblack_living"
+    ]
+  },
+  "ratdead1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:ratdead1"
+    ]
+  },
+  "ratdead2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:ratdead2"
+    ]
+  },
+  "ratdead3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:ratdead3"
+    ]
+  },
+  "rathit": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:rathit"
+    ]
+  },
+  "ratlive": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:ratlive"
+    ]
+  },
+  "roar1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:roar1"
+    ]
+  },
+  "roar2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:roar2"
+    ]
+  },
+  "roar3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:roar3"
+    ]
+  },
+  "roar4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:roar4"
+    ]
+  },
+  "roar5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:roar5"
+    ]
+  },
+  "roar6": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:roar6"
+    ]
+  },
+  "robot1_death": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot1_death"
+    ]
+  },
+  "robot_death1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot_death1"
+    ]
+  },
+  "robot_death2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot_death2"
+    ]
+  },
+  "robot_death3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot_death3"
+    ]
+  },
+  "robot_death4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot_death4"
+    ]
+  },
+  "robot_death5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot_death5"
+    ]
+  },
+  "robot_hurt1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot_hurt1"
+    ]
+  },
+  "robot_hurt2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot_hurt2"
+    ]
+  },
+  "robot_hurt3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot_hurt3"
+    ]
+  },
+  "robot_hurt4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot_hurt4"
+    ]
+  },
+  "robot_hurt5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot_hurt5"
+    ]
+  },
+  "robot_hurt6": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot_hurt6"
+    ]
+  },
+  "robot_hurt7": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot_hurt7"
+    ]
+  },
+  "robot_hurt8": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot_hurt8"
+    ]
+  },
+  "robot_living1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot_living1"
+    ]
+  },
+  "robot_living2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot_living2"
+    ]
+  },
+  "robot_living3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot_living3"
+    ]
+  },
+  "robot_living4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robot_living4"
+    ]
+  },
+  "robotspider1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robotspider1"
+    ]
+  },
+  "robotspider10": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robotspider10"
+    ]
+  },
+  "robotspider11": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robotspider11"
+    ]
+  },
+  "robotspider2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robotspider2"
+    ]
+  },
+  "robotspider3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robotspider3"
+    ]
+  },
+  "robotspider4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robotspider4"
+    ]
+  },
+  "robotspider5": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robotspider5"
+    ]
+  },
+  "robotspider6": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robotspider6"
+    ]
+  },
+  "robotspider7": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robotspider7"
+    ]
+  },
+  "robotspider8": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robotspider8"
+    ]
+  },
+  "robotspider9": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robotspider9"
+    ]
+  },
+  "robotspidermount": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:robotspidermount"
+    ]
+  },
+  "rubybird": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:rubybird"
+    ]
+  },
+  "scorpion_attack": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:scorpion_attack"
+    ]
+  },
+  "scorpion_hit": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:scorpion_hit"
+    ]
+  },
+  "scorpion_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:scorpion_living"
+    ]
+  },
+  "seamonster_death": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:seamonster_death"
+    ]
+  },
+  "seamonster_hit": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:seamonster_hit"
+    ]
+  },
+  "seamonster_living1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:seamonster_living1"
+    ]
+  },
+  "seamonster_living2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:seamonster_living2"
+    ]
+  },
+  "seaviper_death": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:seaviper_death"
+    ]
+  },
+  "seaviper_hit1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:seaviper_hit1"
+    ]
+  },
+  "seaviper_hit2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:seaviper_hit2"
+    ]
+  },
+  "seaviper_hit3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:seaviper_hit3"
+    ]
+  },
+  "seaviper_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:seaviper_living"
+    ]
+  },
+  "squid_death1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:squid_death1"
+    ]
+  },
+  "squid_death2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:squid_death2"
+    ]
+  },
+  "squid_hurt1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:squid_hurt1"
+    ]
+  },
+  "squid_hurt2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:squid_hurt2"
+    ]
+  },
+  "squid_hurt3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:squid_hurt3"
+    ]
+  },
+  "squid_hurt4": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:squid_hurt4"
+    ]
+  },
+  "terribleterror_dead": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:terribleterror_dead"
+    ]
+  },
+  "terribleterror_hit": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:terribleterror_hit"
+    ]
+  },
+  "terribleterror_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:terribleterror_living"
+    ]
+  },
+  "trex_death": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:trex_death"
+    ]
+  },
+  "trex_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:trex_living"
+    ]
+  },
+  "triffid_dead": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:triffid_dead"
+    ]
+  },
+  "triffid_hit": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:triffid_hit"
+    ]
+  },
+  "triffid_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:triffid_living"
+    ]
+  },
+  "vortexlive": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:vortexlive"
+    ]
+  },
+  "waterdragon_death": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:waterdragon_death"
+    ]
+  },
+  "waterdragon_hurt1": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:waterdragon_hurt1"
+    ]
+  },
+  "waterdragon_hurt2": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:waterdragon_hurt2"
+    ]
+  },
+  "waterdragon_hurt3": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:waterdragon_hurt3"
+    ]
+  },
+  "wtf_hurt": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:wtf_hurt"
+    ]
+  },
+  "wtf_living": {
+    "category": "neutral",
+    "sounds": [
+      "orespawndedsport:wtf_living"
+    ]
+  }
+}

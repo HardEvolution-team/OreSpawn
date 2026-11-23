@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderUrchin extends RenderLiving<Urchin> {
    protected ModelUrchin model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "urchintexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "urchintexture.png");
 
    public RenderUrchin(RenderManager par1RenderManager, ModelUrchin par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

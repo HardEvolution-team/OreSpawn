@@ -1,8 +1,0 @@
-{
-  "parent": "orespawn:block/tinted_cube_bottom_top",
-  "textures": {
-    "bottom": "orespawn:blocks/antnest_bottom",
-    "side": "orespawn:blocks/antnest_side",
-    "top": "orespawn:blocks/antnest_top"
-  }
-}

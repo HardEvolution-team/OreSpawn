@@ -16,18 +16,18 @@ import org.lwjgl.opengl.GL11;
 public class RenderRockBase extends RenderLiving<RockBase> {
    protected ModelRockBase model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture1 = new ResourceLocation("orespawn", "rocktexture.png");
-   private static final ResourceLocation texture2 = new ResourceLocation("orespawn", "rocktexture.png");
-   private static final ResourceLocation texture3 = new ResourceLocation("orespawn", "rockredtexture.png");
-   private static final ResourceLocation texture4 = new ResourceLocation("orespawn", "rockgreentexture.png");
-   private static final ResourceLocation texture5 = new ResourceLocation("orespawn", "rockbluetexture.png");
-   private static final ResourceLocation texture6 = new ResourceLocation("orespawn", "rockpurpletexture.png");
-   private static final ResourceLocation texture7 = new ResourceLocation("orespawn", "rocktexture.png");
-   private static final ResourceLocation texture8 = new ResourceLocation("orespawn", "rocktnttexture.png");
-   private static final ResourceLocation texture9 = new ResourceLocation("orespawn", "rockcrystaltexture.png");
-   private static final ResourceLocation texture10 = new ResourceLocation("orespawn", "rockcrystalgreentexture.png");
-   private static final ResourceLocation texture11 = new ResourceLocation("orespawn", "rockcrystalbluetexture.png");
-   private static final ResourceLocation texture12 = new ResourceLocation("orespawn", "rockcrystaltnttexture.png");
+   private static final ResourceLocation texture1 = new ResourceLocation("orespawndedsport", "rocktexture.png");
+   private static final ResourceLocation texture2 = new ResourceLocation("orespawndedsport", "rocktexture.png");
+   private static final ResourceLocation texture3 = new ResourceLocation("orespawndedsport", "rockredtexture.png");
+   private static final ResourceLocation texture4 = new ResourceLocation("orespawndedsport", "rockgreentexture.png");
+   private static final ResourceLocation texture5 = new ResourceLocation("orespawndedsport", "rockbluetexture.png");
+   private static final ResourceLocation texture6 = new ResourceLocation("orespawndedsport", "rockpurpletexture.png");
+   private static final ResourceLocation texture7 = new ResourceLocation("orespawndedsport", "rocktexture.png");
+   private static final ResourceLocation texture8 = new ResourceLocation("orespawndedsport", "rocktnttexture.png");
+   private static final ResourceLocation texture9 = new ResourceLocation("orespawndedsport", "rockcrystaltexture.png");
+   private static final ResourceLocation texture10 = new ResourceLocation("orespawndedsport", "rockcrystalgreentexture.png");
+   private static final ResourceLocation texture11 = new ResourceLocation("orespawndedsport", "rockcrystalbluetexture.png");
+   private static final ResourceLocation texture12 = new ResourceLocation("orespawndedsport", "rockcrystaltnttexture.png");
 
    public RenderRockBase(RenderManager par1RenderManager, ModelRockBase par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

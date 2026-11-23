@@ -13,18 +13,18 @@ import net.minecraft.util.ResourceLocation;
 
 public class RenderThrownRock extends Render<EntityThrownRock> {
    private static final ResourceLocation[] TEXTURES = new ResourceLocation[]{
-       new ResourceLocation("orespawn", "textures/items/rocksmall.png"),
-       new ResourceLocation("orespawn", "textures/items/rock.png"),
-       new ResourceLocation("orespawn", "textures/items/rockred.png"),
-       new ResourceLocation("orespawn", "textures/items/rockgreen.png"),
-       new ResourceLocation("orespawn", "textures/items/rockblue.png"),
-       new ResourceLocation("orespawn", "textures/items/rockpurple.png"),
-       new ResourceLocation("orespawn", "textures/items/rockspikey.png"),
-       new ResourceLocation("orespawn", "textures/items/rocktnt.png"),
-       new ResourceLocation("orespawn", "textures/items/rockcrystalred.png"),
-       new ResourceLocation("orespawn", "textures/items/rockcrystalgreen.png"),
-       new ResourceLocation("orespawn", "textures/items/rockcrystalblue.png"),
-       new ResourceLocation("orespawn", "textures/items/rockcrystaltnt.png"),
+       new ResourceLocation("orespawndedsport", "textures/items/rocksmall.png"),
+       new ResourceLocation("orespawndedsport", "textures/items/rock.png"),
+       new ResourceLocation("orespawndedsport", "textures/items/rockred.png"),
+       new ResourceLocation("orespawndedsport", "textures/items/rockgreen.png"),
+       new ResourceLocation("orespawndedsport", "textures/items/rockblue.png"),
+       new ResourceLocation("orespawndedsport", "textures/items/rockpurple.png"),
+       new ResourceLocation("orespawndedsport", "textures/items/rockspikey.png"),
+       new ResourceLocation("orespawndedsport", "textures/items/rocktnt.png"),
+       new ResourceLocation("orespawndedsport", "textures/items/rockcrystalred.png"),
+       new ResourceLocation("orespawndedsport", "textures/items/rockcrystalgreen.png"),
+       new ResourceLocation("orespawndedsport", "textures/items/rockcrystalblue.png"),
+       new ResourceLocation("orespawndedsport", "textures/items/rockcrystaltnt.png"),
    };
 
    public RenderThrownRock(RenderManager mgr) {

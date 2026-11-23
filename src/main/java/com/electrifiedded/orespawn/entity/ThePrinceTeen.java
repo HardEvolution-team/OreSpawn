@@ -1662,4 +1662,10 @@ public class ThePrinceTeen extends EntityTameable {
     public void setPositionAndRotationDirect(double x, double y, double z, float yaw, float pitch, int increments, boolean teleport) {
         this.setPositionAndRotation2(x, y, z, yaw, pitch, increments);
     }
+
+   @Override
+   protected net.minecraft.pathfinding.PathNavigate createNavigator(World worldIn) {
+      // perf: AI repaths every tick; reuse the path for a few ticks (ArchaicLib)
+      return new com.electrifiedded.archaiclib.legacy.entity.ThrottledPathNavigateGround(this, worldIn);
+   }
 }

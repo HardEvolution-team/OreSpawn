@@ -1278,7 +1278,7 @@ public class OreSpawn {
     public static net.minecraft.block.Block TigersEye = RegistryHandler.TIGERS_EYE;
 
 
-    public static net.minecraft.block.Block MyTheQueenPartSpawnBlock = ExtraRegistry.addSpawnBlock("the_queen_part_spawn_block", "orespawn:queenhead");
+    public static net.minecraft.block.Block MyTheQueenPartSpawnBlock = ExtraRegistry.addSpawnBlock("the_queen_part_spawn_block", "orespawndedsport:queenhead");
     public static net.minecraft.block.Block MyCreeperSpawnBlock = ExtraRegistry.addSpawnBlock("creeper_spawn_block", "creeper");
     // ===== spawn blocks =====
     public static net.minecraft.block.Block MyAlienSpawnBlock = ExtraRegistry.addSpawnBlock("alien_spawn_block", "alien");
@@ -1373,9 +1373,9 @@ public class OreSpawn {
     public static net.minecraft.block.Block MyGhastSpawnBlock = ExtraRegistry.addSpawnBlock("ghast_spawn_block", "ghast");
     public static net.minecraft.block.Block MyHorseSpawnBlock = ExtraRegistry.addSpawnBlock("horse_spawn_block", "horse");
     public static net.minecraft.block.Block MyIronGolemSpawnBlock = ExtraRegistry.addSpawnBlock("iron_golem_spawn_block", "villager_golem");
-    public static net.minecraft.block.Block MyLargeWormSpawnBlock = ExtraRegistry.addSpawnBlock("large_worm_spawn_block", "orespawn:worm_large");
+    public static net.minecraft.block.Block MyLargeWormSpawnBlock = ExtraRegistry.addSpawnBlock("large_worm_spawn_block", "orespawndedsport:worm_large");
     public static net.minecraft.block.Block MyMagmaCubeSpawnBlock = ExtraRegistry.addSpawnBlock("magma_cube_spawn_block", "magma_cube");
-    public static net.minecraft.block.Block MyMediumWormSpawnBlock = ExtraRegistry.addSpawnBlock("medium_worm_spawn_block", "orespawn:worm_medium");
+    public static net.minecraft.block.Block MyMediumWormSpawnBlock = ExtraRegistry.addSpawnBlock("medium_worm_spawn_block", "orespawndedsport:worm_medium");
     public static net.minecraft.block.Block MyMooshroomSpawnBlock = ExtraRegistry.addSpawnBlock("mooshroom_spawn_block", "mooshroom");
     public static net.minecraft.block.Block MyOcelotSpawnBlock = ExtraRegistry.addSpawnBlock("ocelot_spawn_block", "ocelot");
     public static net.minecraft.block.Block MyPigSpawnBlock = ExtraRegistry.addSpawnBlock("pig_spawn_block", "pig");
@@ -1383,7 +1383,7 @@ public class OreSpawn {
     public static net.minecraft.block.Block MySilverfishSpawnBlock = ExtraRegistry.addSpawnBlock("silverfish_spawn_block", "silverfish");
     public static net.minecraft.block.Block MySkeletonSpawnBlock = ExtraRegistry.addSpawnBlock("skeleton_spawn_block", "skeleton");
     public static net.minecraft.block.Block MySlimeSpawnBlock = ExtraRegistry.addSpawnBlock("slime_spawn_block", "slime");
-    public static net.minecraft.block.Block MySmallWormSpawnBlock = ExtraRegistry.addSpawnBlock("small_worm_spawn_block", "orespawn:worm_small");
+    public static net.minecraft.block.Block MySmallWormSpawnBlock = ExtraRegistry.addSpawnBlock("small_worm_spawn_block", "orespawndedsport:worm_small");
     public static net.minecraft.block.Block MySnowGolemSpawnBlock = ExtraRegistry.addSpawnBlock("snow_golem_spawn_block", "snowman");
     public static net.minecraft.block.Block MySquidSpawnBlock = ExtraRegistry.addSpawnBlock("squid_spawn_block", "squid");
     public static net.minecraft.block.Block MyVillagerSpawnBlock = ExtraRegistry.addSpawnBlock("villager_spawn_block", "villager");
@@ -1393,13 +1393,13 @@ public class OreSpawn {
     public static net.minecraft.block.Block MyWolfSpawnBlock = ExtraRegistry.addSpawnBlock("wolf_spawn_block", "wolf");
     public static net.minecraft.block.Block MyZombiePigmanSpawnBlock = ExtraRegistry.addSpawnBlock("zombie_pigman_spawn_block", "zombie_pigman");
     public static net.minecraft.block.Block MyZombieSpawnBlock = ExtraRegistry.addSpawnBlock("zombie_spawn_block", "zombie");
-    public static net.minecraft.block.Block MyGodzillaSpawnBlock = ExtraRegistry.addSpawnBlock("godzilla_spawn_block", "orespawn:mobzilla");
-    public static net.minecraft.block.Block MyGodzillaPartSpawnBlock = ExtraRegistry.addSpawnBlock("godzilla_part_spawn_block", "orespawn:godzilla");
-    public static net.minecraft.block.Block MyKrakenSpawnBlock = ExtraRegistry.addSpawnBlock("kraken_spawn_block", "orespawn:the_kraken");
+    public static net.minecraft.block.Block MyGodzillaSpawnBlock = ExtraRegistry.addSpawnBlock("godzilla_spawn_block", "orespawndedsport:mobzilla");
+    public static net.minecraft.block.Block MyGodzillaPartSpawnBlock = ExtraRegistry.addSpawnBlock("godzilla_part_spawn_block", "orespawndedsport:godzilla");
+    public static net.minecraft.block.Block MyKrakenSpawnBlock = ExtraRegistry.addSpawnBlock("kraken_spawn_block", "orespawndedsport:the_kraken");
 
-    public static net.minecraft.block.Block MyTheKingPartSpawnBlock = ExtraRegistry.addSpawnBlock("the_king_part_spawn_block", "orespawn:the_king_part");
-    public static net.minecraft.block.Block MyTheKingSpawnBlock = ExtraRegistry.addSpawnBlock("the_king_spawn_block", "orespawn:the_king");
-    public static net.minecraft.block.Block MyTheQueenSpawnBlock = ExtraRegistry.addSpawnBlock("the_queen_spawn_block", "orespawn:the_queen");
+    public static net.minecraft.block.Block MyTheKingPartSpawnBlock = ExtraRegistry.addSpawnBlock("the_king_part_spawn_block", "orespawndedsport:the_king_part");
+    public static net.minecraft.block.Block MyTheKingSpawnBlock = ExtraRegistry.addSpawnBlock("the_king_spawn_block", "orespawndedsport:the_king");
+    public static net.minecraft.block.Block MyTheQueenSpawnBlock = ExtraRegistry.addSpawnBlock("the_queen_spawn_block", "orespawndedsport:the_queen");
 
     /** Reads a block of a chunk being generated; world coordinates outside that chunk read as air. */
     public static net.minecraft.block.Block getBlockIDInChunk(net.minecraft.world.chunk.Chunk chunk, int x, int y, int z) {

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "used=0": { "model": "orespawndedsport:pizza_0" },
+    "used=1": { "model": "orespawndedsport:pizza_1" },
+    "used=2": { "model": "orespawndedsport:pizza_2" },
+    "used=3": { "model": "orespawndedsport:pizza_3" },
+    "used=4": { "model": "orespawndedsport:pizza_4" },
+    "used=5": { "model": "orespawndedsport:pizza_5" }
+  }
+}

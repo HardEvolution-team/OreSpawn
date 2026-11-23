@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderGhostSkelly extends RenderLiving<GhostSkelly> {
    protected ModelGhostSkelly model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "ghostskellytexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "ghostskellytexture.png");
 
    public RenderGhostSkelly(RenderManager par1RenderManager, ModelGhostSkelly par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

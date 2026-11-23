@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderPeacock extends RenderLiving<Peacock> {
    protected ModelPeacock model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "peacocktexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "peacocktexture.png");
 
    public RenderPeacock(RenderManager par1RenderManager, ModelPeacock par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

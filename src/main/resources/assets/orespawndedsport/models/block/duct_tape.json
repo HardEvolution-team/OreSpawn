@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "down": "orespawndedsport:blocks/ducttape_bottom",
+    "up": "orespawndedsport:blocks/ducttape_top",
+    "north": "orespawndedsport:blocks/ducttape_side",
+    "south": "orespawndedsport:blocks/ducttape_side",
+    "west": "orespawndedsport:blocks/ducttape_side",
+    "east": "orespawndedsport:blocks/ducttape_side",
+    "particle": "orespawndedsport:blocks/ducttape_side"
+  }
+}

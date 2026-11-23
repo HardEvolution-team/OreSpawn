@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderEmperorScorpion extends RenderLiving<EmperorScorpion> {
    protected ModelEmperorScorpion model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "emperorscorpion.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "emperorscorpion.png");
 
    public RenderEmperorScorpion(RenderManager par1RenderManager, ModelEmperorScorpion par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

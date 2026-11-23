@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderCassowary extends RenderLiving<Cassowary> {
    protected ModelCassowary model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "cassowary.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "cassowary.png");
 
    public RenderCassowary(RenderManager par1RenderManager, ModelCassowary par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

@@ -67,23 +67,23 @@ public class EntityButterfly extends EntityAmbientCreature {
 
 
 
-   private static final ResourceLocation texture1 = new ResourceLocation("orespawn", "butterfly.png");
+   private static final ResourceLocation texture1 = new ResourceLocation("orespawndedsport", "butterfly.png");
 
-   private static final ResourceLocation texture2 = new ResourceLocation("orespawn", "butterfly2.png");
+   private static final ResourceLocation texture2 = new ResourceLocation("orespawndedsport", "butterfly2.png");
 
-   private static final ResourceLocation texture3 = new ResourceLocation("orespawn", "butterfly3.png");
+   private static final ResourceLocation texture3 = new ResourceLocation("orespawndedsport", "butterfly3.png");
 
-   private static final ResourceLocation texture4 = new ResourceLocation("orespawn", "butterfly4.png");
+   private static final ResourceLocation texture4 = new ResourceLocation("orespawndedsport", "butterfly4.png");
 
-   private static final ResourceLocation texture5 = new ResourceLocation("orespawn", "eyemoth.png");
+   private static final ResourceLocation texture5 = new ResourceLocation("orespawndedsport", "eyemoth.png");
 
-   private static final ResourceLocation texture6 = new ResourceLocation("orespawn", "lunamoth.png");
+   private static final ResourceLocation texture6 = new ResourceLocation("orespawndedsport", "lunamoth.png");
 
-   private static final ResourceLocation texture7 = new ResourceLocation("orespawn", "darkmoth.png");
+   private static final ResourceLocation texture7 = new ResourceLocation("orespawndedsport", "darkmoth.png");
 
-   private static final ResourceLocation texture8 = new ResourceLocation("orespawn", "firemoth.png");
+   private static final ResourceLocation texture8 = new ResourceLocation("orespawndedsport", "firemoth.png");
 
-   private static final ResourceLocation texture9 = new ResourceLocation("orespawn", "vbutterfly1.png");
+   private static final ResourceLocation texture9 = new ResourceLocation("orespawndedsport", "vbutterfly1.png");
 
    public int butterfly_type = 0;
 

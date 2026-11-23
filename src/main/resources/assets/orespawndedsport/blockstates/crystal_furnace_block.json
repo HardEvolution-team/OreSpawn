@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "orespawndedsport:crystal_furnace_block" },
+    "facing=south": { "model": "orespawndedsport:crystal_furnace_block", "y": 180 },
+    "facing=west": { "model": "orespawndedsport:crystal_furnace_block", "y": 270 },
+    "facing=east": { "model": "orespawndedsport:crystal_furnace_block", "y": 90 }
+  }
+}

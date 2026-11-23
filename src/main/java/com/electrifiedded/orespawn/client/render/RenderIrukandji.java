@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderIrukandji extends RenderLiving<Irukandji> {
    protected ModelIrukandji model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "irukandjitexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "irukandjitexture.png");
 
    public RenderIrukandji(RenderManager par1RenderManager, ModelIrukandji par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

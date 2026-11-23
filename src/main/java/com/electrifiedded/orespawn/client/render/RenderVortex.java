@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderVortex extends RenderLiving<Vortex> {
    protected ModelVortex model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "vortextexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "vortextexture.png");
 
    public RenderVortex(RenderManager par1RenderManager, ModelVortex par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

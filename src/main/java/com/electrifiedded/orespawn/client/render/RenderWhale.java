@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderWhale extends RenderLiving<Whale> {
    protected ModelWhale model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "whaletexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "whaletexture.png");
 
    public RenderWhale(RenderManager par1RenderManager, ModelWhale par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

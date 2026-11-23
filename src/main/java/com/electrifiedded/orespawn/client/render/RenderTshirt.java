@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderTshirt extends RenderLiving<Tshirt> {
    protected ModelTshirt model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "tshirttexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "tshirttexture.png");
 
    public RenderTshirt(RenderManager par1RenderManager, ModelTshirt par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

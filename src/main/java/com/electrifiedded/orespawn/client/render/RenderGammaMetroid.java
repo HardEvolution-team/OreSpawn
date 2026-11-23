@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderGammaMetroid extends RenderLiving<GammaMetroid> {
    protected ModelGammaMetroid model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "gammametroid.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "gammametroid.png");
 
    public RenderGammaMetroid(RenderManager par1RenderManager, ModelGammaMetroid par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

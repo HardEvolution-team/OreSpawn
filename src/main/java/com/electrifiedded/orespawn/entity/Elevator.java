@@ -46,16 +46,16 @@ public class Elevator extends EntityLiving {
    private int exploding = 0;
    private int color = 1;
    private int playing = 0;
-   private static final ResourceLocation texture1 = new ResourceLocation("orespawn", "elevator1.png");
-   private static final ResourceLocation texture2 = new ResourceLocation("orespawn", "elevator2.png");
-   private static final ResourceLocation texture3 = new ResourceLocation("orespawn", "elevator3.png");
-   private static final ResourceLocation texture4 = new ResourceLocation("orespawn", "elevator4.png");
-   private static final ResourceLocation texture5 = new ResourceLocation("orespawn", "elevator5.png");
-   private static final ResourceLocation texture6 = new ResourceLocation("orespawn", "elevator6.png");
-   private static final ResourceLocation texture7 = new ResourceLocation("orespawn", "elevator7.png");
-   private static final ResourceLocation texture8 = new ResourceLocation("orespawn", "elevator8.png");
-   private static final ResourceLocation texture9 = new ResourceLocation("orespawn", "elevator9.png");
-   private static final ResourceLocation texture10 = new ResourceLocation("orespawn", "elevator10.png");
+   private static final ResourceLocation texture1 = new ResourceLocation("orespawndedsport", "elevator1.png");
+   private static final ResourceLocation texture2 = new ResourceLocation("orespawndedsport", "elevator2.png");
+   private static final ResourceLocation texture3 = new ResourceLocation("orespawndedsport", "elevator3.png");
+   private static final ResourceLocation texture4 = new ResourceLocation("orespawndedsport", "elevator4.png");
+   private static final ResourceLocation texture5 = new ResourceLocation("orespawndedsport", "elevator5.png");
+   private static final ResourceLocation texture6 = new ResourceLocation("orespawndedsport", "elevator6.png");
+   private static final ResourceLocation texture7 = new ResourceLocation("orespawndedsport", "elevator7.png");
+   private static final ResourceLocation texture8 = new ResourceLocation("orespawndedsport", "elevator8.png");
+   private static final ResourceLocation texture9 = new ResourceLocation("orespawndedsport", "elevator9.png");
+   private static final ResourceLocation texture10 = new ResourceLocation("orespawndedsport", "elevator10.png");
 
    public Elevator(World par1World) {
       super(par1World);

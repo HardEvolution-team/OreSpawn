@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderEasterBunny extends RenderLiving<EasterBunny> {
    protected ModelEasterBunny model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "easterbunnytexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "easterbunnytexture.png");
 
    public RenderEasterBunny(RenderManager par1RenderManager, ModelEasterBunny par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

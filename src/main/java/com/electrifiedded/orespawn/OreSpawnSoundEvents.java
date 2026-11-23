@@ -16,8 +16,8 @@ import java.util.Set;
 
 /**
  * Central registry for all OreSpawn sound events (server-safe).
- * Original 1.7.10 code used plain string sound names like "orespawn:alo_living";
- * here every sounds/*.ogg file becomes a SoundEvent named "orespawn:<basename>"
+ * Original 1.7.10 code used plain string sound names like "orespawndedsport:alo_living";
+ * here every sounds/*.ogg file becomes a SoundEvent named "orespawndedsport:<basename>"
  * (registering twice i.e. both "x" and "orespawn.x" SoundEvent names is harmless,
  * we simply register bare names and entities look them up through {@link #get}).
  */

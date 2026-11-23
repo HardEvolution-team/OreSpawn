@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderPitchBlack extends RenderLiving<PitchBlack> {
    protected ModelPitchBlack model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "pitchblacktexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "pitchblacktexture.png");
 
    public RenderPitchBlack(RenderManager par1RenderManager, ModelPitchBlack par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

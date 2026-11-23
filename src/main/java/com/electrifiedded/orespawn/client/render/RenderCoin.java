@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderCoin extends RenderLiving<Coin> {
    protected ModelCoin model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "cointexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "cointexture.png");
 
    public RenderCoin(RenderManager par1RenderManager, ModelCoin par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderRotator extends RenderLiving<Rotator> {
    protected ModelRotator model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "rotatortexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "rotatortexture.png");
 
    public RenderRotator(RenderManager par1RenderManager, ModelRotator par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

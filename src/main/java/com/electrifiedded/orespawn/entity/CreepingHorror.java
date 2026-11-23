@@ -204,4 +204,10 @@ public class CreepingHorror extends EntityMob {
    protected boolean canDespawn() {
       return this.isNoDespawnRequired() ? false : this.world.isDaytime();
    }
+
+   @Override
+   protected net.minecraft.pathfinding.PathNavigate createNavigator(World worldIn) {
+      // perf: AI repaths every tick; reuse the path for a few ticks (ArchaicLib)
+      return new com.electrifiedded.archaiclib.legacy.entity.ThrottledPathNavigateGround(this, worldIn);
+   }
 }

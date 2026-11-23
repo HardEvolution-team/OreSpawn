@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderNastysaurus extends RenderLiving<Nastysaurus> {
    protected ModelNastysaurus model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "nastysaurustexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "nastysaurustexture.png");
 
    public RenderNastysaurus(RenderManager par1RenderManager, ModelNastysaurus par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

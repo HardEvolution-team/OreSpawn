@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderRat extends RenderLiving<Rat> {
    protected ModelRat model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "rattexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "rattexture.png");
 
    public RenderRat(RenderManager par1RenderManager, ModelRat par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

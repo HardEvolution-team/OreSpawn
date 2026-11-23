@@ -12,9 +12,9 @@ import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.util.ResourceLocation;
 
 public class RenderEnchantedCow extends RenderLiving<RedCow> {
-   private static final ResourceLocation texture3 = new ResourceLocation("orespawn", "crystal_cow.png");
-   private static final ResourceLocation texture1 = new ResourceLocation("orespawn", "red_cow.png");
-   private static final ResourceLocation texture2 = new ResourceLocation("orespawn", "gold_cow.png");
+   private static final ResourceLocation texture3 = new ResourceLocation("orespawndedsport", "crystal_cow.png");
+   private static final ResourceLocation texture1 = new ResourceLocation("orespawndedsport", "red_cow.png");
+   private static final ResourceLocation texture2 = new ResourceLocation("orespawndedsport", "gold_cow.png");
 
    public RenderEnchantedCow(RenderManager mgr, ModelCow model, float shadow) {
       super(mgr, model, shadow);

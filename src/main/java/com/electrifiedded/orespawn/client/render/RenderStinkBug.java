@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderStinkBug extends RenderLiving<StinkBug> {
    protected ModelStinkBug model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "stinkbug.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "stinkbug.png");
 
    public RenderStinkBug(RenderManager par1RenderManager, ModelStinkBug par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

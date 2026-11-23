@@ -16,9 +16,9 @@ import org.lwjgl.opengl.GL11;
 public class RenderOstrich extends RenderLiving<Ostrich> {
    protected ModelOstrich model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "ostrichtexture.png");
-   private static final ResourceLocation texture2 = new ResourceLocation("orespawn", "ostrichtexture2.png");
-   private static final ResourceLocation texture3 = new ResourceLocation("orespawn", "ostrichtexture3.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "ostrichtexture.png");
+   private static final ResourceLocation texture2 = new ResourceLocation("orespawndedsport", "ostrichtexture2.png");
+   private static final ResourceLocation texture3 = new ResourceLocation("orespawndedsport", "ostrichtexture3.png");
 
    public RenderOstrich(RenderManager par1RenderManager, ModelOstrich par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

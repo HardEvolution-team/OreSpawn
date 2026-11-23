@@ -30,7 +30,7 @@ import java.io.File;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION,
     guiFactory = "com.electrifiedded.orespawn.client.gui.OreSpawnGuiFactory",
-    dependencies = "required-after:archaiclib")
+    dependencies = "required-after:archaiclib@[1.36.1,)")
 @Mod.EventBusSubscriber(modid = Reference.MOD_ID)
 public class OreSpawnMod {
 
@@ -48,13 +48,17 @@ public class OreSpawnMod {
     public static final String ORIGINAL_NAME = "orespawn-1.7.10-20.3.jar (OreSpawn by TheyCallMeDanger)";
     public static final String ORIGINAL_URL = "https://dangerzone-archive.weebly.com/orespawn.html";
 
+    /** modid / asset domain of the original jar (the port itself uses another modid so it cannot clash with the real OreSpawn) */
+    public static final String ORIGINAL_MOD_ID = "orespawn";
+
     public OreSpawnMod() {
+        com.electrifiedded.archaiclib.original.OriginalModAssets.mapDomain(Reference.MOD_ID, ORIGINAL_MOD_ID);
         OriginalAssetAliases.register();
     }
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        com.electrifiedded.archaiclib.original.OriginalModAssets.require(Reference.MOD_ID, Reference.MOD_ID, ORIGINAL_NAME, ORIGINAL_URL, Reference.MOD_ID);
+        com.electrifiedded.archaiclib.original.OriginalModAssets.require(Reference.MOD_ID, ORIGINAL_MOD_ID, ORIGINAL_NAME, ORIGINAL_URL, ORIGINAL_MOD_ID);
         LOGGER.info("Pre-initializing {}!", Reference.MOD_NAME);
         
         config = new Configuration(event.getSuggestedConfigurationFile());
@@ -64,6 +68,7 @@ public class OreSpawnMod {
         OreSpawn.BMaze = new com.electrifiedded.orespawn.world.BasiliskMaze();
         OreSpawn.RubyDungeon = new com.electrifiedded.orespawn.world.RubyBirdDungeon();
         OreSpawn.MyDungeon = new com.electrifiedded.orespawn.world.GenericDungeon();
+        MinecraftForge.EVENT_BUS.register(LegacyIdRemapper.class);
         MinecraftForge.EVENT_BUS.register(OreSpawnFallHandler.class);
         MinecraftForge.EVENT_BUS.register(PortCreditHandler.class);
         OreSpawnDimension.registerDimensions();

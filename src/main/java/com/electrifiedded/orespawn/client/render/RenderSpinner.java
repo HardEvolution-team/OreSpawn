@@ -14,7 +14,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class RenderSpinner<T extends Entity> extends Render<T> {
    public int spinItemIconIndex = 160;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "spinners.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "spinners.png");
 
    public RenderSpinner(RenderManager mgr) {
       super(mgr);

@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderLeon extends RenderLiving<Leon> {
    protected ModelLeon model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "leon.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "leon.png");
 
    public RenderLeon(RenderManager par1RenderManager, ModelLeon par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

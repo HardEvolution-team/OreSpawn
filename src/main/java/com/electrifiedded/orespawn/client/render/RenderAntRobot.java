@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderAntRobot extends RenderLiving<AntRobot> {
    protected ModelAntRobot model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "antrobottexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "antrobottexture.png");
 
    public RenderAntRobot(RenderManager par1RenderManager, ModelAntRobot par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

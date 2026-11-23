@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderSpyro extends RenderLiving<Spyro> {
    protected ModelSpyro model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "spyrotexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "spyrotexture.png");
 
    public RenderSpyro(RenderManager par1RenderManager, ModelSpyro par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

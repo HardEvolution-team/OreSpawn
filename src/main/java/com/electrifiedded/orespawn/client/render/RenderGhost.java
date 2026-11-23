@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderGhost extends RenderLiving<Ghost> {
    protected ModelGhost model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "ghosttexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "ghosttexture.png");
 
    public RenderGhost(RenderManager par1RenderManager, ModelGhost par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

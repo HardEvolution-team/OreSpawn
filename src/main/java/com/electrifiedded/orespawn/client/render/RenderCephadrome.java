@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderCephadrome extends RenderLiving<Cephadrome> {
    protected ModelCephadrome model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "cephadrome.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "cephadrome.png");
 
    public RenderCephadrome(RenderManager par1RenderManager, ModelCephadrome par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

@@ -16,9 +16,9 @@ import org.lwjgl.opengl.GL11;
 public class RenderLizard extends RenderLiving<Lizard> {
    protected ModelLizard model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "lizard.png");
-   private static final ResourceLocation texture2 = new ResourceLocation("orespawn", "lizard2.png");
-   private static final ResourceLocation texture3 = new ResourceLocation("orespawn", "lizard3.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "lizard.png");
+   private static final ResourceLocation texture2 = new ResourceLocation("orespawndedsport", "lizard2.png");
+   private static final ResourceLocation texture3 = new ResourceLocation("orespawndedsport", "lizard3.png");
 
    public RenderLizard(RenderManager par1RenderManager, ModelLizard par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

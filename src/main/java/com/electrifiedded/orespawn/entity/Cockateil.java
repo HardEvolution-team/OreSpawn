@@ -31,12 +31,12 @@ public class Cockateil extends EntityAnimal {
    private BlockPos currentFlightTarget = null;
    public int birdtype;
    private boolean killedByPlayer = false;
-   private static final ResourceLocation texture1 = new ResourceLocation("orespawn", "bird1.png");
-   private static final ResourceLocation texture2 = new ResourceLocation("orespawn", "bird2.png");
-   private static final ResourceLocation texture3 = new ResourceLocation("orespawn", "bird3.png");
-   private static final ResourceLocation texture4 = new ResourceLocation("orespawn", "bird4.png");
-   private static final ResourceLocation texture5 = new ResourceLocation("orespawn", "bird5.png");
-   private static final ResourceLocation texture6 = new ResourceLocation("orespawn", "bird6.png");
+   private static final ResourceLocation texture1 = new ResourceLocation("orespawndedsport", "bird1.png");
+   private static final ResourceLocation texture2 = new ResourceLocation("orespawndedsport", "bird2.png");
+   private static final ResourceLocation texture3 = new ResourceLocation("orespawndedsport", "bird3.png");
+   private static final ResourceLocation texture4 = new ResourceLocation("orespawndedsport", "bird4.png");
+   private static final ResourceLocation texture5 = new ResourceLocation("orespawndedsport", "bird5.png");
+   private static final ResourceLocation texture6 = new ResourceLocation("orespawndedsport", "bird6.png");
    private int stuck_count = 0;
    private int lastX = 0;
    private int lastZ = 0;

@@ -21,7 +21,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 @SideOnly(Side.CLIENT)
 public class GirlfriendOverlayGui {
-    private static final ResourceLocation TEXTURE = new ResourceLocation("orespawn", "textures/girlfriendgui.png");
+    private static final ResourceLocation TEXTURE = new ResourceLocation("orespawndedsport", "textures/girlfriendgui.png");
     private final Minecraft mc;
     /** Target lookup scans nearby entities, so it runs once per client tick instead of every frame. */
     private long cachedTick = Long.MIN_VALUE;
@@ -134,8 +134,8 @@ public class GirlfriendOverlayGui {
     }
 
     private String getDisplayName(EntityLivingBase entity) {
-        if (entity instanceof TheKing) return I18n.format("entity.orespawn.the_king.name");
-        if (entity instanceof TheQueen) return I18n.format("entity.orespawn.the_queen.name");
+        if (entity instanceof TheKing) return I18n.format("entity.orespawndedsport.the_king.name");
+        if (entity instanceof TheQueen) return I18n.format("entity.orespawndedsport.the_queen.name");
         if (entity.hasCustomName()) return entity.getCustomNameTag();
         if (entity instanceof Girlfriend) return "Girlfriend";
         if (entity instanceof Boyfriend) return "Boyfriend";

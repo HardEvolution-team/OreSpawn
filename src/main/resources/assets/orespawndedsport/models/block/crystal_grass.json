@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "orespawndedsport:blocks/crystalgrass_bottom",
+    "side": "orespawndedsport:blocks/crystalgrass_side",
+    "top": "orespawndedsport:blocks/crystalgrass_top"
+  }
+}

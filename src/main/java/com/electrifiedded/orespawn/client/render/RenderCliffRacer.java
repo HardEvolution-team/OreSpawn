@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderCliffRacer extends RenderLiving<CliffRacer> {
    protected ModelCliffRacer model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "cliffracertexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "cliffracertexture.png");
 
    public RenderCliffRacer(RenderManager par1RenderManager, ModelCliffRacer par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

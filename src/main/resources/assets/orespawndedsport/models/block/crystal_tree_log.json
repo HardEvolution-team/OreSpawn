@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "orespawndedsport:blocks/crystaltreelog",
+    "end": "orespawndedsport:blocks/crystaltreelog_top"
+  }
+}

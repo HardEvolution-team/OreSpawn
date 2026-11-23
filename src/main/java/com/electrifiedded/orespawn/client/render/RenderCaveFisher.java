@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderCaveFisher extends RenderLiving<CaveFisher> {
    protected ModelCaveFisher model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "cavefisher.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "cavefisher.png");
 
    public RenderCaveFisher(RenderManager par1RenderManager, ModelCaveFisher par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

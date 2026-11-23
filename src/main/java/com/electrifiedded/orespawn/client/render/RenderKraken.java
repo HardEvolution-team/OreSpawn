@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderKraken extends RenderLiving<Kraken> {
    protected ModelKraken model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "kraken.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "kraken.png");
 
    public RenderKraken(RenderManager par1RenderManager, ModelKraken par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

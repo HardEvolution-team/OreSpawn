@@ -106,7 +106,7 @@ public class ItemOreSpawnArmor extends ItemArmor {
     @Override
     public String getArmorTexture(ItemStack stack, Entity entity, EntityEquipmentSlot slot, String type) {
         int suffix = (getArmorType() == 2) ? 2 : 1;
-        return "orespawn:" + TEX[this.armorMaterial] + "_" + suffix + ".png";
+        return "orespawndedsport:" + TEX[this.armorMaterial] + "_" + suffix + ".png";
     }
 
     @Override

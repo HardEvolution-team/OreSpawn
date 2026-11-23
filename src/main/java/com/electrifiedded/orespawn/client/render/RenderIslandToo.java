@@ -8,7 +8,7 @@ import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
 
 public class RenderIslandToo extends RenderLiving<IslandToo> {
-   private static final ResourceLocation TEXTURE = new ResourceLocation("orespawn", "islandtoo.png");
+   private static final ResourceLocation TEXTURE = new ResourceLocation("orespawndedsport", "islandtoo.png");
    private final float scale;
 
    public RenderIslandToo(RenderManager renderManager, ModelIsland model, float shadowSize, float scale) {

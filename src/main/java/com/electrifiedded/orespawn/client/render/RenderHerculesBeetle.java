@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderHerculesBeetle extends RenderLiving<HerculesBeetle> {
    protected ModelHerculesBeetle model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "beetletexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "beetletexture.png");
 
    public RenderHerculesBeetle(RenderManager par1RenderManager, ModelHerculesBeetle par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

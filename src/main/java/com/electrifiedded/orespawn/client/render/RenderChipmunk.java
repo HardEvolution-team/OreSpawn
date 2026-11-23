@@ -16,9 +16,9 @@ import org.lwjgl.opengl.GL11;
 public class RenderChipmunk extends RenderLiving<Chipmunk> {
    protected ModelChipmunk model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "chipmunktexture.png");
-   private static final ResourceLocation texture2 = new ResourceLocation("orespawn", "chipmunktexture2.png");
-   private static final ResourceLocation texture3 = new ResourceLocation("orespawn", "chipmunktexture3.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "chipmunktexture.png");
+   private static final ResourceLocation texture2 = new ResourceLocation("orespawndedsport", "chipmunktexture2.png");
+   private static final ResourceLocation texture3 = new ResourceLocation("orespawndedsport", "chipmunktexture3.png");
 
    public RenderChipmunk(RenderManager par1RenderManager, ModelChipmunk par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

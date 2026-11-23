@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderHammerhead extends RenderLiving<Hammerhead> {
    protected ModelHammerhead model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "hammerheadtexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "hammerheadtexture.png");
 
    public RenderHammerhead(RenderManager par1RenderManager, ModelHammerhead par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

@@ -1,0 +1,1 @@
+{"parent":"orespawndedsport:block/pizza","elements":[{"from":[11,0,1],"to":[15,4,15],"faces":{"down":{"texture":"#down"},"up":{"texture":"#up"},"north":{"texture":"#north"},"south":{"texture":"#south"},"west":{"texture":"orespawndedsport:blocks/pizza_inner"},"east":{"texture":"#east"}}}]}

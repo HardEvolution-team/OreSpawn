@@ -13,7 +13,7 @@ public class RenderStinky extends RenderLiving<Stinky> {
 
     static {
         for (int i = 0; i < TEXTURES.length; i++) {
-            TEXTURES[i] = new ResourceLocation("orespawn", "stinkytexture" + (i + 1) + ".png");
+            TEXTURES[i] = new ResourceLocation("orespawndedsport", "stinkytexture" + (i + 1) + ".png");
         }
     }
 

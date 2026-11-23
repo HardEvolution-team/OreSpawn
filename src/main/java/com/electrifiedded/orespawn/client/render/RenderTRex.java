@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderTRex extends RenderLiving<TRex> {
    protected ModelTRex model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "trextexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "trextexture.png");
 
    public RenderTRex(RenderManager par1RenderManager, ModelTRex par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

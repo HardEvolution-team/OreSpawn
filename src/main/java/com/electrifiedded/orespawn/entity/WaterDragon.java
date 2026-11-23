@@ -1754,6 +1754,10 @@ public class WaterDragon extends EntityTameable {
    public boolean processInteract(EntityPlayer player, net.minecraft.util.EnumHand hand) {
       return hand == net.minecraft.util.EnumHand.MAIN_HAND && interact(player);
    }
+
+   @Override
+   protected net.minecraft.pathfinding.PathNavigate createNavigator(World worldIn) {
+      // perf: AI repaths every tick; reuse the path for a few ticks (ArchaicLib)
+      return new com.electrifiedded.archaiclib.legacy.entity.ThrottledPathNavigateGround(this, worldIn);
+   }
 }
-
-

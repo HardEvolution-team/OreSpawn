@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderTriffid extends RenderLiving<Triffid> {
    protected ModelTriffid model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "triffidtexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "triffidtexture.png");
 
    public RenderTriffid(RenderManager par1RenderManager, ModelTriffid par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

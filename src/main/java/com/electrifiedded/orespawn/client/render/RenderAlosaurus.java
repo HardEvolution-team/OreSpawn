@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderAlosaurus extends RenderLiving<Alosaurus> {
    protected ModelAlosaurus model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "alosaurus.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "alosaurus.png");
 
    public RenderAlosaurus(RenderManager par1RenderManager, ModelAlosaurus par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

@@ -268,4 +268,10 @@ public class Peacock extends EntityAnimal {
       List<Entity> var5 = this.world.getEntitiesWithinAABB(Peacock.class, this.getEntityBoundingBox().grow(16.0, 10.0, 16.0));
       return var5.size();
    }
+
+   @Override
+   protected net.minecraft.pathfinding.PathNavigate createNavigator(World worldIn) {
+      // perf: AI repaths every tick; reuse the path for a few ticks (ArchaicLib)
+      return new com.electrifiedded.archaiclib.legacy.entity.ThrottledPathNavigateGround(this, worldIn);
+   }
 }

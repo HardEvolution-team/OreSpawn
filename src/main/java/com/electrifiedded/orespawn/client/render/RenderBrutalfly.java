@@ -16,8 +16,8 @@ import org.lwjgl.opengl.GL11;
 public class RenderBrutalfly extends RenderLiving<Brutalfly> {
    protected ModelBrutalfly model;
    private float scale = 1.0F;
-   private static final ResourceLocation overlay = new ResourceLocation("orespawn", "brutalfly_overlay2.png");
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "brutalflytexture.png");
+   private static final ResourceLocation overlay = new ResourceLocation("orespawndedsport", "brutalfly_overlay2.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "brutalflytexture.png");
 
    public RenderBrutalfly(RenderManager par1RenderManager, ModelBrutalfly par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

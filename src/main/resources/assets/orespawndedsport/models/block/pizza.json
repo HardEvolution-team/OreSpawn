@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "down": "orespawndedsport:blocks/pizza_bottom",
+    "up": "orespawndedsport:blocks/pizza_top",
+    "north": "orespawndedsport:blocks/pizza_side",
+    "south": "orespawndedsport:blocks/pizza_side",
+    "west": "orespawndedsport:blocks/pizza_side",
+    "east": "orespawndedsport:blocks/pizza_side",
+    "particle": "orespawndedsport:blocks/pizza_side"
+  }
+}

@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderCrab extends RenderLiving<Crab> {
    protected ModelCrab model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "robotcrabtexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "robotcrabtexture.png");
 
    public RenderCrab(RenderManager par1RenderManager, ModelCrab par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

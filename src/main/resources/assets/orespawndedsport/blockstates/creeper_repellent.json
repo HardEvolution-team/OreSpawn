@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=up": { "model": "orespawndedsport:creeper_repellent" },
+    "facing=east": { "model": "orespawndedsport:creeper_repellent_wall" },
+    "facing=west": { "model": "orespawndedsport:creeper_repellent_wall", "y": 180 },
+    "facing=south": { "model": "orespawndedsport:creeper_repellent_wall", "y": 90 },
+    "facing=north": { "model": "orespawndedsport:creeper_repellent_wall", "y": 270 }
+  }
+}
+

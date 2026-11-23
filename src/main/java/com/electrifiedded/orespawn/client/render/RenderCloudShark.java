@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderCloudShark extends RenderLiving<CloudShark> {
    protected ModelCloudShark model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "cloudshark.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "cloudshark.png");
 
    public RenderCloudShark(RenderManager par1RenderManager, ModelCloudShark par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

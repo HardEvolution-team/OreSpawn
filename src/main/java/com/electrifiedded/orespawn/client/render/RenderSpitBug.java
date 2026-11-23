@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderSpitBug extends RenderLiving<SpitBug> {
    protected ModelSpitBug model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "blisterbug.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "blisterbug.png");
 
    public RenderSpitBug(RenderManager par1RenderManager, ModelSpitBug par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

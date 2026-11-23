@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderMosquito extends RenderLiving<EntityMosquito> {
    protected ModelMosquito model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "mosquito.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "mosquito.png");
 
    public RenderMosquito(RenderManager par1RenderManager, ModelMosquito par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderCamarasaurus extends RenderLiving<Camarasaurus> {
    protected ModelCamarasaurus model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "camarasaurus.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "camarasaurus.png");
 
    public RenderCamarasaurus(RenderManager par1RenderManager, ModelCamarasaurus par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

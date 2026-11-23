@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderMantis extends RenderLiving<Mantis> {
    protected ModelMantis model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "mantistexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "mantistexture.png");
 
    public RenderMantis(RenderManager par1RenderManager, ModelMantis par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

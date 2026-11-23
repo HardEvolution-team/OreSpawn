@@ -16,8 +16,8 @@ import org.lwjgl.opengl.GL11;
 public class RenderRubberDucky extends RenderLiving<RubberDucky> {
    protected ModelRubberDucky model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "rubberduckytexture.png");
-   private static final ResourceLocation texture2 = new ResourceLocation("orespawn", "evilrubberduckytexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "rubberduckytexture.png");
+   private static final ResourceLocation texture2 = new ResourceLocation("orespawndedsport", "evilrubberduckytexture.png");
 
    public RenderRubberDucky(RenderManager par1RenderManager, ModelRubberDucky par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderAttackSquid extends RenderLiving<AttackSquid> {
    protected ModelAttackSquid model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "attacksquid.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "attacksquid.png");
 
    public RenderAttackSquid(RenderManager par1RenderManager, ModelAttackSquid par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

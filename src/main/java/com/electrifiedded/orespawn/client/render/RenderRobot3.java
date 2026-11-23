@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderRobot3 extends RenderLiving<Robot3> {
    protected ModelRobot3 model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "robot3.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "robot3.png");
 
    public RenderRobot3(RenderManager par1RenderManager, ModelRobot3 par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

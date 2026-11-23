@@ -16,7 +16,7 @@ import org.lwjgl.opengl.GL11;
 public class RenderFlounder extends RenderLiving<Flounder> {
    protected ModelFlounder model;
    private float scale = 1.0F;
-   private static final ResourceLocation texture = new ResourceLocation("orespawn", "floundertexture.png");
+   private static final ResourceLocation texture = new ResourceLocation("orespawndedsport", "floundertexture.png");
 
    public RenderFlounder(RenderManager par1RenderManager, ModelFlounder par1ModelBase, float par2, float par3) {
       super(par1RenderManager, par1ModelBase, par2 * par3);

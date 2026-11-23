@@ -1,0 +1,8 @@
+{
+  "parent": "orespawndedsport:block/tinted_cube_bottom_top",
+  "textures": {
+    "bottom": "orespawndedsport:blocks/antnest_bottom",
+    "side": "orespawndedsport:blocks/antnest_side",
+    "top": "orespawndedsport:blocks/antnest_top"
+  }
+}
