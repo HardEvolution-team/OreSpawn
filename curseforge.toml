@@ -1,6 +1,6 @@
 project_id = 1792771
-display_name = "OreSpawn Cleanroom Port 1.1.1"
-jar = "build/libs/orespawndedsport-1.1.1.jar"
+display_name = "OreSpawn Cleanroom Port 1.1.4"
+jar = "build/libs/orespawndedsport-1.1.4.jar"
 changelog = "CHANGELOG.md"
 changelog_type = "markdown"
 changelog_latest_only = true

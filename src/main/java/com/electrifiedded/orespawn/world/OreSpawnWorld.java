@@ -71,6 +71,8 @@ public class OreSpawnWorld implements IWorldGenerator {
                   this.addMosquitos(world, random, chunkX * 16, chunkZ * 16);
                }
 
+               // Don't build OreSpawn features on top of village houses/roads.
+               if (!nearVillage(chunkGenerator, chunkX * 16, chunkZ * 16)) {
                this.addAnts(world, random, chunkX * 16, chunkZ * 16, 4);
                this.addAppleTrees(world, random, chunkX * 16, chunkZ * 16, chunk);
                this.addGenericDungeon(world, random, chunkX * 16, chunkZ * 16);
@@ -84,6 +86,7 @@ public class OreSpawnWorld implements IWorldGenerator {
 
                if (recently_placed == 0) {
                   this.addRedAntHangout(world, random, chunkX * 16, chunkZ * 16);
+               }
                }
             } else if (world.provider.getDimension() == OreSpawn.DimensionID4) {
                if (recently_placed == 0 && random.nextInt(100) == 0 && this.D4BigSpaceCheck(world, chunkX * 16, 7, chunkZ * 16)) {
@@ -256,6 +259,11 @@ public class OreSpawnWorld implements IWorldGenerator {
          }
          }
       }
+   }
+
+   private static boolean nearVillage(IChunkGenerator gen, int x, int z) {
+      // Features may reach ~16 blocks out of their chunk; keep a margin around village pieces.
+      return gen instanceof ChunkProviderOreSpawn3 && ((ChunkProviderOreSpawn3)gen).villageOverlaps(x - 16, z - 16, x + 31, z + 31);
    }
 
    private static boolean isOreSpawnDimension(int dimension) {

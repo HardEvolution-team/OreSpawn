@@ -49,12 +49,13 @@ public class ChunkProviderOreSpawn3 implements IChunkGenerator {
    private final double[] field_147434_q;
    private final float[] parabolicField;
    private double[] stoneNoise = new double[256];
-   private MapGenBase caveGenerator = new MapGenCaves();
-   private MapGenStronghold strongholdGenerator = new MapGenStronghold();
-   private MapGenMoreVillages villageGenerator = new MapGenMoreVillages();
-   private MapGenMineshaft mineshaftGenerator = new MapGenMineshaft();
-   private MapGenScatteredFeature scatteredFeatureGenerator = new MapGenScatteredFeature();
-   private MapGenBase ravineGenerator = new MapGenRavine();
+   // Same as vanilla ChunkGeneratorOverworld: let other mods (Village Names etc.) swap the generators.
+   private MapGenBase caveGenerator = net.minecraftforge.event.terraingen.TerrainGen.getModdedMapGen(new MapGenCaves(), net.minecraftforge.event.terraingen.InitMapGenEvent.EventType.CAVE);
+   private MapGenStronghold strongholdGenerator = (MapGenStronghold)net.minecraftforge.event.terraingen.TerrainGen.getModdedMapGen(new MapGenStronghold(), net.minecraftforge.event.terraingen.InitMapGenEvent.EventType.STRONGHOLD);
+   private net.minecraft.world.gen.structure.MapGenStructure villageGenerator = (net.minecraft.world.gen.structure.MapGenStructure)net.minecraftforge.event.terraingen.TerrainGen.getModdedMapGen(new MapGenMoreVillages(), net.minecraftforge.event.terraingen.InitMapGenEvent.EventType.VILLAGE);
+   private MapGenMineshaft mineshaftGenerator = (MapGenMineshaft)net.minecraftforge.event.terraingen.TerrainGen.getModdedMapGen(new MapGenMineshaft(), net.minecraftforge.event.terraingen.InitMapGenEvent.EventType.MINESHAFT);
+   private MapGenScatteredFeature scatteredFeatureGenerator = (MapGenScatteredFeature)net.minecraftforge.event.terraingen.TerrainGen.getModdedMapGen(new MapGenScatteredFeature(), net.minecraftforge.event.terraingen.InitMapGenEvent.EventType.SCATTERED_FEATURE);
+   private MapGenBase ravineGenerator = net.minecraftforge.event.terraingen.TerrainGen.getModdedMapGen(new MapGenRavine(), net.minecraftforge.event.terraingen.InitMapGenEvent.EventType.RAVINE);
    private Biome[] biomesForGeneration;
    double[] field_147427_d;
    double[] field_147428_e;
@@ -320,6 +321,7 @@ public class ChunkProviderOreSpawn3 implements IChunkGenerator {
       long j1 = this.rand.nextLong() / 2L * 2L + 1L;
       this.rand.setSeed(par2 * i1 + par3 * j1 ^ this.world.getSeed());
       boolean flag = false;
+      net.minecraftforge.event.ForgeEventFactory.onChunkPopulate(true, this, this.world, this.rand, par2, par3, flag);
       if (this.mapFeaturesEnabled) {
          net.minecraft.util.math.ChunkPos chunkPos = new net.minecraft.util.math.ChunkPos(par2, par3);
          this.mineshaftGenerator.generateStructure(this.world, this.rand, chunkPos);
@@ -376,7 +378,38 @@ public class ChunkProviderOreSpawn3 implements IChunkGenerator {
          }
       }
 
+      net.minecraftforge.event.ForgeEventFactory.onChunkPopulate(false, this, this.world, this.rand, par2, par3, flag);
       BlockFalling.fallInstantly = false;
+   }
+
+   private static java.lang.reflect.Field structureMapField;
+
+   /** True when the XZ area overlaps any village piece of this dimension (height ignored). */
+   @SuppressWarnings("unchecked")
+   public boolean villageOverlaps(int minX, int minZ, int maxX, int maxZ) {
+      if (!this.mapFeaturesEnabled) return false;
+      try {
+         if (structureMapField == null) {
+            structureMapField = net.minecraftforge.fml.common.ObfuscationReflectionHelper.findField(net.minecraft.world.gen.structure.MapGenStructure.class, "field_75053_d");
+         }
+         java.util.Map<Long, net.minecraft.world.gen.structure.StructureStart> map =
+            (java.util.Map<Long, net.minecraft.world.gen.structure.StructureStart>)structureMapField.get(this.villageGenerator);
+         for (net.minecraft.world.gen.structure.StructureStart start : map.values()) {
+            if (!start.isSizeableStructure()) continue;
+            net.minecraft.world.gen.structure.StructureBoundingBox bb = start.getBoundingBox();
+            if (bb.maxX < minX || bb.minX > maxX || bb.maxZ < minZ || bb.minZ > maxZ) continue;
+            for (net.minecraft.world.gen.structure.StructureComponent c : start.getComponents()) {
+               net.minecraft.world.gen.structure.StructureBoundingBox b = c.getBoundingBox();
+               if (b.maxX >= minX && b.minX <= maxX && b.maxZ >= minZ && b.minZ <= maxZ) return true;
+            }
+         }
+         return false;
+      } catch (Throwable t) {
+         for (int y = 40; y <= 140; y += 3) {
+            if (this.villageGenerator.isInsideStructure(new BlockPos((minX + maxX) / 2, y, (minZ + maxZ) / 2))) return true;
+         }
+         return false;
+      }
    }
 
    public boolean saveChunks(boolean par1, IProgressUpdate par2IProgressUpdate) {
@@ -426,7 +459,14 @@ public class ChunkProviderOreSpawn3 implements IChunkGenerator {
 
     public boolean generateStructures(Chunk chunk, int x, int z) { return false; }
     public void recreateStructures(Chunk chunk, int x, int z) { this.recreateStructures(x, z); }
-    public BlockPos getNearestStructurePos(World world, String name, BlockPos pos, boolean findUnexplored) { return "Stronghold".equals(name) ? this.strongholdGenerator.getNearestStructurePos(world, pos, findUnexplored) : null; }
+    public BlockPos getNearestStructurePos(World world, String name, BlockPos pos, boolean findUnexplored) {
+       if (!this.mapFeaturesEnabled) return null;
+       if ("Stronghold".equals(name)) return this.strongholdGenerator.getNearestStructurePos(world, pos, findUnexplored);
+       if ("Village".equals(name)) return this.villageGenerator.getNearestStructurePos(world, pos, findUnexplored);
+       if ("Mineshaft".equals(name)) return this.mineshaftGenerator.getNearestStructurePos(world, pos, findUnexplored);
+       if ("Temple".equals(name)) return this.scatteredFeatureGenerator.getNearestStructurePos(world, pos, findUnexplored);
+       return null;
+    }
     public List<Biome.SpawnListEntry> getPossibleCreatures(EnumCreatureType type, BlockPos pos) { return this.getPossibleCreatures(type, pos.getX(), pos.getY(), pos.getZ()); }
      private Chunk toChunk(Block[] ablock, byte[] abyte, int cx, int cz) { return new Chunk(this.world, this.toPrimer(ablock, abyte), cx, cz); }
      private net.minecraft.world.chunk.ChunkPrimer toPrimer(Block[] ablock) { return this.toPrimer(ablock, null); }

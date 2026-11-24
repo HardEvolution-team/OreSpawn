@@ -1,0 +1,19 @@
+{
+  "_comment": "Where ArchaicLib downloads the original files of this port from. Edit freely; set locked=true to keep your edits when the mod updates. Files go to archaic_originals/ and are checked by sha256.",
+  "port": "orespawndedsport",
+  "version": 3,
+  "locked": false,
+  "files": [
+    {
+      "file": "orespawn-1.7.10-20.3.jar",
+      "name": "orespawn-1.7.10-20.3.jar (OreSpawn by TheyCallMeDanger)",
+      "sha256": "5b93a7c75323cb3021f5c9e5d19c4885721ec1376ff7fd24527156d0120ed7eb",
+      "size": 17541969,
+      "page": "https://dangerzone-archive.weebly.com/orespawn.html",
+      "mirrors": [
+        "https://web.archive.org/web/20201105194809id_/http://www.orespawn.com/uploads/2/5/3/5/25358181/orespawn-1.7.10-20.3.jar",
+        "https://web.archive.org/web/20210401030907id_/http://www.orespawn.com/uploads/2/5/3/5/25358181/orespawn-1.7.10-20.3.jar"
+      ]
+    }
+  ]
+}

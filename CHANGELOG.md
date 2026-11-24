@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.1.4
+### Changed
+- The original mod file is now downloaded automatically on first start (needs ArchaicLib 1.42.0+): sources and mirrors are listed in `config/archaiclib/originals/` and can be edited there. If the download fails, a banner on the main menu links to the manual download.
+
+## 1.1.3
+### Fixed
+- Village Mania (Rainbow Ant dimension) villages now generate like vanilla overworld villages: the generators go through Forge's InitMapGenEvent and the chunk provider fires PopulateChunkEvent, so village mods (Village Names and similar) replace/extend them correctly instead of producing broken villages.
+- OreSpawn's own features (apple trees, dungeons, ant/spider hangouts, ant nests) no longer spawn on top of village houses and roads.
+- /locate Village (and Mineshaft/Temple) works in the Village Mania dimension.
+
+## 1.1.2
+### Fixed
+- Crash "OreSpawn dimension ID is already registered: 80" when another mod uses the same dimension id: OreSpawn now automatically picks a free block of 6 ids.
+
 ## 1.1.1
 ### Fixed
 - Missing English names for ~150 items and blocks (Thunder Staff, Irukandji Arrow, Ray Gun, Wrench, Hoverboard, caged mobs, foods, repellents, etc.).
