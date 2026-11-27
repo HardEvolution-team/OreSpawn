@@ -122,7 +122,13 @@ public class EasterBunny extends EntityAnimal {
       }
 
       super.handleJumpWater();
-      if (this.world.rand.nextInt(600) == 1) {
+   }
+
+   // Egg laying used to live in handleJumpWater(), which 1.12 only calls while swimming,
+   // so bunnies never laid eggs on land. Run it every server AI tick instead.
+   protected void updateAITasks() {
+      super.updateAITasks();
+      if (!this.world.isRemote && !this.isChild() && this.world.rand.nextInt(600) == 1) {
          this.LayAnEgg(1 + this.world.rand.nextInt(3));
       }
    }

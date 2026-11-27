@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.5
+### Fixed
+- Boss/target health bars were drawn darkened: leftover GL colour/lighting state is now reset before drawing.
+- Easter Bunny now lays eggs on land too (it only did it while swimming).
+### Changed
+- Health bar: smooth fill, lingering damage trail, HP numbers under the bar, low-health pulse.
+- Bar moves below vanilla boss bars (Wither, Ender Dragon, other mods) instead of overlapping them.
+- The last fought boss stays shown while nearby even if you look away.
+
 ## 1.1.4
 ### Changed
 - The original mod file is now downloaded automatically on first start (needs ArchaicLib 1.42.0+): sources and mirrors are listed in `config/archaiclib/originals/` and can be edited there. If the download fails, a banner on the main menu links to the manual download.

@@ -6,6 +6,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.gui.ScaledResolution;
+import net.minecraft.client.renderer.GlStateManager;
+import net.minecraft.util.math.MathHelper;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -33,7 +35,7 @@ public class GirlfriendOverlayGui {
 
     @SubscribeEvent
     public void onRenderOverlay(RenderGameOverlayEvent.Post event) {
-        if (event.getType() != RenderGameOverlayEvent.ElementType.HOTBAR) {
+        if (event.getType() != RenderGameOverlayEvent.ElementType.ALL) {
             return;
         }
         
@@ -51,25 +53,111 @@ public class GirlfriendOverlayGui {
             if (cachedTarget == null) {
                 cachedTarget = findBoss(player, 64.0D);
             }
+            // Keep showing the last boss we fought while it is still close, even when not aimed at.
+            if (cachedTarget == null && trackedEntity != null && !trackedEntity.isDead
+                && trackedEntity.world == player.world && player.getDistanceSq(trackedEntity) < 48.0D * 48.0D
+                && isDisplayed(trackedEntity, player)) {
+                cachedTarget = trackedEntity;
+            }
         }
         EntityLivingBase target = cachedTarget;
         if (target != null && (target.isDead || target.world != player.world)) {
             cachedTarget = null;
+            trackedEntity = null;
             return;
         }
         if (target == null || !isDisplayed(target, player) || target.getMaxHealth() <= 0.0F) return;
         float health = Math.max(0.0F, Math.min(1.0F, target.getHealth() / target.getMaxHealth()));
+        if (target != trackedEntity) {
+            trackedEntity = target;
+            shownHealth = health;
+            trailHealth = health;
+            trailHoldUntil = 0L;
+        }
+        // Smooth bar: the main fill eases toward the real value, a pale "damage trail" lingers then drains.
+        long now = Minecraft.getSystemTime();
+        float dt = lastFrame == 0L ? 0.0F : Math.min(0.25F, (now - lastFrame) / 1000.0F);
+        lastFrame = now;
+        shownHealth += (health - shownHealth) * Math.min(1.0F, dt * 12.0F);
+        if (health < trailHealth) {
+            if (trailHoldUntil == 0L) trailHoldUntil = now + 600L;
+            if (now > trailHoldUntil) trailHealth = Math.max(health, trailHealth - dt * 0.6F);
+        } else {
+            trailHealth = health;
+            trailHoldUntil = 0L;
+        }
+        if (trailHealth <= health) trailHoldUntil = 0L;
+
         int barWidth = 182;
         int barHeight = 5;
         int x = width / 2 - barWidth / 2;
-        int y = 25;
+        int y = 25 + vanillaBossBarsOffset();
         String name = getDisplayName(target);
-        mc.fontRenderer.drawStringWithShadow(name, width / 2.0F - mc.fontRenderer.getStringWidth(name) / 2.0F, y - 10, 0xFF3434);
+        String hp = String.format("%d / %d", (int) Math.ceil(target.getHealth()), (int) Math.ceil(target.getMaxHealth()));
+
+        // Reset GL state left over from the hotbar/other overlays: tinted colour + lighting caused the dark bars.
+        GlStateManager.pushMatrix();
+        GlStateManager.disableLighting();
+        GlStateManager.disableDepth();
+        GlStateManager.enableTexture2D();
+        GlStateManager.enableBlend();
+        GlStateManager.tryBlendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA,
+            GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
+        GlStateManager.enableAlpha();
+        GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
+
         mc.getTextureManager().bindTexture(TEXTURE);
-        mc.getTextureManager().getTexture(TEXTURE).setBlurMipmap(false, false);
         Gui.drawModalRectWithCustomSizedTexture(x, y, 0, 0, barWidth, barHeight, 256, 256);
-        int filled = Math.round(health * barWidth);
-        if (filled > 0) Gui.drawModalRectWithCustomSizedTexture(x, y, 0, barHeight, filled, barHeight, 256, 256);
+        int trail = Math.round(trailHealth * barWidth);
+        int filled = Math.round(shownHealth * barWidth);
+        if (trail > filled) {
+            GlStateManager.color(1.0F, 0.9F, 0.6F, 0.75F);
+            Gui.drawModalRectWithCustomSizedTexture(x + filled, y, filled, barHeight, trail - filled, barHeight, 256, 256);
+            GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
+        }
+        if (filled > 0) {
+            // Low health pulses so the final phase is readable.
+            if (health < 0.25F) {
+                float pulse = 0.75F + 0.25F * MathHelper.sin(now / 120.0F);
+                GlStateManager.color(1.0F, pulse, pulse, 1.0F);
+            }
+            Gui.drawModalRectWithCustomSizedTexture(x, y, 0, barHeight, filled, barHeight, 256, 256);
+            GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
+        }
+        mc.fontRenderer.drawStringWithShadow(name, width / 2.0F - mc.fontRenderer.getStringWidth(name) / 2.0F, y - 10, 0xFF3434);
+        GlStateManager.pushMatrix();
+        GlStateManager.translate(width / 2.0F, y + barHeight + 2, 0.0F);
+        GlStateManager.scale(0.75F, 0.75F, 1.0F);
+        mc.fontRenderer.drawStringWithShadow(hp, -mc.fontRenderer.getStringWidth(hp) / 2.0F, 0, 0xFFFFFF);
+        GlStateManager.popMatrix();
+        GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
+        GlStateManager.enableDepth();
+        GlStateManager.disableBlend();
+        GlStateManager.popMatrix();
+    }
+
+    private EntityLivingBase trackedEntity;
+    private float shownHealth = 1.0F;
+    private float trailHealth = 1.0F;
+    private long trailHoldUntil;
+    private long lastFrame;
+    private static java.lang.reflect.Field bossMapField;
+    private static boolean bossMapFailed;
+
+    /** Push our bar below vanilla boss bars (wither/dragon/other mods) instead of drawing on top of them. */
+    private int vanillaBossBarsOffset() {
+        if (bossMapFailed) return 0;
+        try {
+            if (bossMapField == null) {
+                bossMapField = net.minecraftforge.fml.common.ObfuscationReflectionHelper.findField(
+                    net.minecraft.client.gui.GuiBossOverlay.class, "field_184060_g");
+            }
+            java.util.Map<?, ?> map = (java.util.Map<?, ?>) bossMapField.get(mc.ingameGUI.getBossOverlay());
+            return map == null ? 0 : Math.min(map.size(), 4) * 19;
+        } catch (Throwable t) {
+            bossMapFailed = true;
+            return 0;
+        }
     }
 
     private EntityLivingBase findBoss(EntityPlayer player, double distance) {
